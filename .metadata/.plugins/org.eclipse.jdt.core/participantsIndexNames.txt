@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\BAO\workspace-jsp-servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\258472863.index
+\jspservletHUHUHU\src\main\java
+C:\Users\BAO\workspace-jsp-servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2895576781.index
+\jspservletHUHUHU\src\main\java

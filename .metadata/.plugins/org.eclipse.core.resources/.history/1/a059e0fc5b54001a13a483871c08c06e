@@ -1,0 +1,257 @@
+package com.laptrinhjavaweb.repository;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+
+
+public class SimpleJPARepository<T> implements JPARepository<T> {
+
+	private Class<T> zClass;
+
+	@SuppressWarnings("unchecked")
+	public SimpleJPARepository() {
+		Type type = this.getClass().getGenericSuperclass();
+		ParameterizedType param = (ParameterizedType) type;
+		zClass = (Class<T>) param.getActualTypeArguments()[0];
+	}
+
+	private String createSQLinsert() {
+		String tableName = "";
+		StringBuilder sbFields = new StringBuilder("");
+		StringBuilder sbParams = new StringBuilder("");
+
+		if (zClass.isAnnotationPresent(Table.class)) {
+			tableName = zClass.getAnnotation(Table.class).name();
+		}
+		for (Field field : zClass.getDeclaredFields()) {
+			String ColumnName = field.getAnnotation(Column.class).name();
+			if (sbFields.length() > 1) {
+				sbFields.append(",");
+				sbParams.append(",");
+			}
+			sbFields.append(ColumnName);
+			sbParams.append("?");
+		}
+		String sql = "insert into " + tableName + "(" + sbFields.toString() + ") values(" + sbParams.toString() + ")";
+		return sql;
+	}
+
+	@Override
+	public void save(Object object) {
+		String sql = createSQLinsert();
+		Connection connection = EntityManagerFactory.getConnection();
+		PreparedStatement statement = null;
+		try {
+			connection.setAutoCommit(false);
+			statement = connection.prepareStatement(sql);
+			Class<?> aClass = object.getClass();
+			int idx = 1;
+			for (Field field : aClass.getDeclaredFields()) {
+				field.setAccessible(true);
+				statement.setObject(idx, field.get(object));
+				idx++;
+			}
+
+			statement.executeUpdate();
+			connection.commit();
+		} catch (SQLException | IllegalAccessException e) {
+			try {
+				System.out.println(e.getMessage());
+				connection.rollback();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		} finally {
+			try {
+				connection.close();
+				statement.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public void edit(T object) {
+		String sql = createSQLupdate(object);
+		Connection connection = EntityManagerFactory.getConnection();
+		PreparedStatement statement = null;
+		try {
+			connection.setAutoCommit(false);
+			statement = connection.prepareStatement(sql);
+
+			statement.executeUpdate();
+			connection.commit();
+		} catch (SQLException e) {
+			try {
+				System.out.println(e.getMessage());
+				connection.rollback();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		} finally {
+			try {
+				connection.close();
+				statement.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+//update tableName set coulumnName = coulmnvalue ,.... where id = id
+	public String createSQLupdate(T object) {
+		String tableName = "";
+		StringBuilder sbFieldAndValue = new StringBuilder(""); 
+		String id = "";
+		String idvalue = "";
+		try {
+			if (zClass.isAnnotationPresent(Table.class)) {
+				tableName = zClass.getAnnotation(Table.class).name();
+			}
+			Class<?> aClass = object.getClass();
+			for (Field field : aClass.getDeclaredFields()) {
+				field.setAccessible(true);
+				if (field.getAnnotation(Column.class).name().equals("id")) {
+					id = field.getAnnotation(Column.class).name();
+					idvalue = field.get(object).toString();
+					continue;
+				}
+				if (field.get(object) != null) {
+					if (sbFieldAndValue.length() > 1) {
+						sbFieldAndValue.append(",");
+					}
+					//nếu là String thì comlumnName = '' , số thì cho là = số //còn date thì nó ko chịu
+					if (field.get(object) instanceof String) {
+						sbFieldAndValue
+								.append(field.getAnnotation(Column.class).name() + "='" + field.get(object) + "'"); 
+					}  else {
+						sbFieldAndValue.append(field.getAnnotation(Column.class).name() + "=" + field.get(object) + "");
+						// so																								
+					}
+				}
+			}
+		} catch (IllegalAccessException e) {
+			return sbFieldAndValue.toString();
+		}
+		String sql = "Update " + tableName + " set " + sbFieldAndValue.toString() + " where " + tableName + "." + id
+				+ " = " + idvalue + "";
+		return sql;
+	}
+
+	@Override
+	public void delete(Long id) {
+		String tableName = "";
+		Connection connection = EntityManagerFactory.getConnection();
+		PreparedStatement statement = null;
+		try {
+			if (zClass.isAnnotationPresent(Table.class)) {
+				tableName = zClass.getAnnotation(Table.class).name();
+			}
+			String sql = "Delete from " + tableName + " where id = " + id;
+			connection.setAutoCommit(false);
+			statement = connection.prepareStatement(sql);
+			statement.executeUpdate();
+			connection.commit();
+		} catch (SQLException e) {
+			try {
+				System.out.println(e.getMessage());
+				connection.rollback();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		} finally {
+			try {
+				connection.close();
+				statement.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public List<T> findAll(String sql, Object... where) {
+		ResultsetMapperToList<T> rsMapperToList = new ResultsetMapperToList<>();
+		Connection connection = EntityManagerFactory.getConnection();
+		Statement statement = null;
+		ResultSet resultSet = null;
+		if (connection != null) {
+			try {
+
+				StringBuilder builder = new StringBuilder(sql);
+				if (where != null && where.length == 1) {
+					builder.append(where[0]);
+				}
+				statement = connection.createStatement();
+				resultSet = statement.executeQuery(sql.toString());
+				return rsMapperToList.mapRow(resultSet, zClass);
+			} catch (SQLException e) {
+				System.out.println(e.getMessage());
+				return new ArrayList<>();
+			}
+		}
+		return new ArrayList<>();
+	}
+
+	// hàm này sẽ giải quyết findAll
+	@Override
+	public List<T> findAll(Map<String, Object> params, Object... where) {
+		ResultsetMapperToList<T> rsMapperToList = new ResultsetMapperToList<>();
+		Connection connection = EntityManagerFactory.getConnection();
+		PreparedStatement statement = null;
+		ResultSet rs = null;
+		String tableName = "";
+
+		try {
+			if(zClass.isAnnotationPresent(Table.class)) {
+				tableName = zClass.getAnnotation(Table.class).name();
+			}
+			StringBuilder sql = new StringBuilder("select * from "+tableName+" where 1=1");
+			sql = createSQLfindAllCommon(sql,params);
+			if(where!= null && where.length ==1 ) {
+				sql.append(where[0]);
+			}
+			statement = connection.prepareStatement(sql.toString());
+			rs = statement.executeQuery();
+			return rsMapperToList.mapRow(rs, zClass);
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+			return new ArrayList<>();
+		}
+	}
+	protected StringBuilder createSQLfindAllCommon(StringBuilder sql, Map<String, Object> params) {
+		if(params != null && params.size() > 0) 
+		{
+			String[] keys = new String[params.size()];
+			Object[] values = new Object[params.size()];
+			int index = 0;
+			for(Map.Entry<String,Object> item : params.entrySet()) {
+				keys[index] = item.getKey();
+				values[index] = item.getValue();
+				index++;
+			}
+			for(int i = 0 ;i< keys.length ;i++) {				
+				if(values[i] instanceof String) {				
+						sql.append(" and b."+keys[i]+" like '%"+values[i].toString()+"%'");
+				}else {
+					if(values[i] != null) {
+						sql.append(" and b."+keys[i]+" = "+values[i]+"");
+					}					
+				}
+			}
+		}
+		return sql;
+	}
+
+}

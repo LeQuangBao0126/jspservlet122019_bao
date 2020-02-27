@@ -1,0 +1,30 @@
+package zzz;
+
+import java.util.List;
+
+import builder.BuildingSearchBuilder;
+import dto.BuildingDTO;
+import service.IBuildingService;
+import service.impl.BuildingService;
+
+public class EstateApplication {
+	public static void main(String[] args) {
+		 String name ="tower";
+		 String district = "QUAN_1";
+		 String[] types = new String[] {"TANG_TRET","NGUYEN_CAN"};
+		 String rentAreaFrom ="300";
+		 String rentAreaTo ="500";
+		 String numberOfBasement = "2";
+		 String floorArea ="500";
+		 BuildingSearchBuilder builder = new BuildingSearchBuilder.Builder()
+				 .setName(name)
+				 .setDistrict(district)
+				 .setFloorArea(floorArea)
+				 .setNumberOfBasement(numberOfBasement)
+				 .build();
+		 
+		 IBuildingService buildingService = new BuildingService();
+		 List<BuildingDTO> results = buildingService.findAll(builder);
+				 
+	}
+}

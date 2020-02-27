@@ -1,0 +1,9 @@
+package repository;
+
+import java.util.List;
+
+public interface JPArepository<T> {
+	List<T> findAll(Object... where);
+	List<T> findAll(String sql,Object...where);
+	void insert(Object object);
+ }

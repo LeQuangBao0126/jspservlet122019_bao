@@ -1,0 +1,24 @@
+package mapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import anotation.Entity;
+
+public class ResultSetMapper<T> {
+	public List<T> mapRow(ResultSet rs , Class<T> zClass){
+		List<T> results = new ArrayList<>();
+			try {
+				if(zClass.isAnnotationPresent(Entity.class)) {
+					while(rs.next()) {
+						
+					}
+				}
+			}catch(SQLException e) {
+				 
+			}
+		return results;
+	}
+}

@@ -1,0 +1,16 @@
+package com.laptrinhjavaweb.repository;
+
+import java.util.List;
+import java.util.Map;
+
+import com.laptrinhjavaweb.entity.BuildingEntity;
+
+
+
+public interface IBuildingRepository extends JPARepository<BuildingEntity>  {
+		void insert(BuildingEntity entity);
+		void update(BuildingEntity entity);
+		void delete(Long id);
+	//
+		List<BuildingEntity> findAll(Map<String,Object> params,BuildingBuilder builder);
+}

@@ -1,0 +1,19 @@
+package service.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import builder.BuildingSearchBuilder;
+import dto.BuildingDTO;
+import service.IBuildingService;
+
+public class BuildingService implements IBuildingService {
+
+	@Override
+	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
+		Map<String,Object> params = new HashMap<>();
+		return null;
+	}
+
+}

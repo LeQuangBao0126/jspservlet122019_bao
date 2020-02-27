@@ -1,0 +1,36 @@
+package service.impl;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import builder.BuildingSearchBuilder;
+import converter.BuildingConverter;
+import dto.BuildingDTO;
+import entity.BuildingEntity;
+import repository.IBuildingRepository;
+import repository.impl.BuildingRepository;
+import service.IBuildingService;
+
+public class BuildingService implements IBuildingService {
+	private IBuildingRepository buildingRepository = new BuildingRepository();
+	private BuildingConverter buildingConverter = new BuildingConverter();
+	@Override
+	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
+		List<BuildingDTO> results = new ArrayList<>();
+		Map<String,Object> params = new HashMap<>();
+		params.put("name", builder.getName());
+		params.put("district", builder.getDistrict());
+		params.put("numberOfBasement", builder.getNumberOfBasement());
+		
+		
+		List<BuildingEntity> entities  = buildingRepository.findAll(params, builder);
+		for(BuildingEntity item : entities) {
+			BuildingDTO dto = buildingConverter.convertEntityToDTO(item);
+			results.add(dto);
+		}
+		return results;
+	}
+
+}

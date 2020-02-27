@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 
+import anotation.Table;
 import builder.BuildingSearchBuilder;
 import entity.BuildingEntity;
 import repository.IBuildingRepository;
@@ -12,8 +13,8 @@ import repository.IBuildingRepository;
 public class BuildingRepository extends SimpleJPArepository<BuildingEntity> implements IBuildingRepository {
 
 	@Override
-	public void insert(BuildingEntity entity) {
-		super.insert(entity);
+	public Long insert(BuildingEntity entity) {
+		return super.insert(entity);
 	}
 
 	@Override
@@ -62,6 +63,28 @@ public class BuildingRepository extends SimpleJPArepository<BuildingEntity> impl
 			sql.append(" AND ab.staffid = "+builder.getStaffId()+"");
 		}
 		return sql;
+	}
+
+	@Override
+	public BuildingEntity findById(Long buildingId) {
+		String tableName ="";
+		if( BuildingEntity.class.isAnnotationPresent(Table.class)) {
+			tableName = BuildingEntity.class.getAnnotation(Table.class).name();
+		}
+		String sql = "select * from "+tableName;
+		String where = " where "+tableName+".id = "+buildingId;
+		List<BuildingEntity> list = super.findAll(sql, where);
+		return list.get(0);
+	}
+
+	@Override
+	public Long update(BuildingEntity entity) {
+		return super.update(entity);
+	}
+
+	@Override
+	public void delete(Long id) {
+		super.delete(id);
 	}
 	
 

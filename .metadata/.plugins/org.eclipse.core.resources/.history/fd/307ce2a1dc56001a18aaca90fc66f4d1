@@ -1,0 +1,13 @@
+package converter;
+
+import org.modelmapper.ModelMapper;
+
+import dto.BuildingDTO;
+import entity.BuildingEntity;
+
+public class BuildingConverter {
+	private ModelMapper modelMapper  = new ModelMapper();
+	public static BuildingDTO convertEntityToDTO(BuildingEntity entity) {
+		
+	}
+}

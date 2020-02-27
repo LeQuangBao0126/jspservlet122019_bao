@@ -1,0 +1,13 @@
+package repository.impl;
+
+import entity.BuildingEntity;
+import repository.IBuildingRepository;
+
+public class BuildingRepository extends SimpleJPArepository<BuildingEntity> implements IBuildingRepository {
+
+	@Override
+	public void insert() {
+	
+	}
+
+}

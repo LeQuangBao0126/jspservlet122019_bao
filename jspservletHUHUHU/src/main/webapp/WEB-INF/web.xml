@@ -34,4 +34,34 @@
     <servlet-name>BuildingControlle</servlet-name>
     <url-pattern>/BuildingControlle</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DistrictAPI</display-name>
+    <servlet-name>DistrictAPI</servlet-name>
+    <servlet-class>api.DistrictAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DistrictAPI</servlet-name>
+    <url-pattern>/DistrictAPI</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserAPI</display-name>
+    <servlet-name>UserAPI</servlet-name>
+    <servlet-class>api.UserAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAPI</servlet-name>
+    <url-pattern>/UserAPI</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BuildingTypeAPI</display-name>
+    <servlet-name>BuildingTypeAPI</servlet-name>
+    <servlet-class>api.BuildingTypeAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuildingTypeAPI</servlet-name>
+    <url-pattern>/BuildingTypeAPI</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -1,13 +1,16 @@
 package dto;
 
-public class BuildingDTO extends BaseDTO {
+import java.util.Date;
 
+public class BuildingDTO {
+	private Long id;
+	
 	private String name;
 	private String ward;
 	private String street;
 	private String structure;
 	private Integer numberOfBasement;
-	private Integer floorarea;
+	private Integer floorArea;
 	private String direction;
 	private String level;
 	private String rentAreaDescription;
@@ -26,10 +29,21 @@ public class BuildingDTO extends BaseDTO {
 	private String timeDecorator;
 	private String managerName;
 	private String managerPhone;
-
+	private Date createdDate;
+	private Date modifiededDate;
+	private String createdBy;
+	private String modifiededBy;
+	//phải có buildingtype thừ client truyền về là mảng...còn cái type là get từ entity trong db là chuỗi
+	private String[] buildingTypes = new String[] {};
 	
 	
 	
+	public String[] getBuildingTypes() {
+		return buildingTypes;
+	}
+	public void setBuildingTypes(String[] buildingTypes) {
+		this.buildingTypes = buildingTypes;
+	}
 	public String getName() {
 		return name;
 	}
@@ -61,10 +75,10 @@ public class BuildingDTO extends BaseDTO {
 		this.numberOfBasement = numberOfBasement;
 	}
 	public Integer getFloorarea() {
-		return floorarea;
+		return floorArea;
 	}
 	public void setFloorarea(Integer floorarea) {
-		this.floorarea = floorarea;
+		this.floorArea = floorarea;
 	}
 	public String getDirection() {
 		return direction;
@@ -173,6 +187,36 @@ public class BuildingDTO extends BaseDTO {
 	}
 	public void setManagerPhone(String managerPhone) {
 		this.managerPhone = managerPhone;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public Date getCreatedDate() {
+		return createdDate;
+	}
+	public void setCreatedDate(Date createdDate) {
+		this.createdDate = createdDate;
+	}
+	public Date getModifiededDate() {
+		return modifiededDate;
+	}
+	public void setModifiededDate(Date modifiededDate) {
+		this.modifiededDate = modifiededDate;
+	}
+	public String getCreatedBy() {
+		return createdBy;
+	}
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+	public String getModifiededBy() {
+		return modifiededBy;
+	}
+	public void setModifiededBy(String modifiededBy) {
+		this.modifiededBy = modifiededBy;
 	}
 	
 }

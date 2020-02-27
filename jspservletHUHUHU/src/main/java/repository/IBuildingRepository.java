@@ -7,6 +7,9 @@ import builder.BuildingSearchBuilder;
 import entity.BuildingEntity;
 
 public interface IBuildingRepository extends JPArepository<BuildingEntity> {
-		void insert(BuildingEntity entity);
+		Long insert(BuildingEntity entity);
 		List<BuildingEntity> findAll(Map<String,Object> params,BuildingSearchBuilder builder);
+		BuildingEntity findById(Long buildingId);
+		Long update(BuildingEntity entity);
+		void delete(Long id );
 }

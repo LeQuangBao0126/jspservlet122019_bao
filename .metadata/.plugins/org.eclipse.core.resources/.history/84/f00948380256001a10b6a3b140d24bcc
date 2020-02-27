@@ -1,0 +1,18 @@
+package com.laptrinhjavaweb.service;
+
+import java.util.List;
+
+import com.laptrinhjavaweb.builder.BuildingBuilder;
+import com.laptrinhjavaweb.dto.BuildingDTO;
+
+
+
+
+public interface IBuildingService {
+	//ko cần truyền builder..chỉ cần dto..có thì thêm vào ..còn ko thì null
+	void insert(BuildingDTO dto);
+	void update(BuildingDTO dto);
+	void delete(Long id); // delete coulumn where id = ?. 
+	
+	List<BuildingDTO> findAll(BuildingBuilder builder);
+}

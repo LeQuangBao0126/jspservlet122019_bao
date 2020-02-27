@@ -1,0 +1,28 @@
+package mapper;
+
+import java.lang.reflect.Field;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import anotation.Entity;
+
+public class ResultSetMapper<T> {
+	public List<T> mapRow(ResultSet rs , Class<T> zClass){
+		List<T> results = new ArrayList<>();
+			try {
+				if(zClass.isAnnotationPresent(Entity.class)) {
+					ResultSetMetaData rsMetadata = rs.getMetaData();
+					Field[] fields = zClass.getDeclaredFields();
+					while(rs.next()) {
+						T object = zClass.newInstance();
+					}
+				}
+			}catch(SQLException |IllegalAccessException |InstantiationException e) {
+				 
+			}
+		return results;
+	}
+}

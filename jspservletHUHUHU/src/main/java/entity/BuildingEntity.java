@@ -1,14 +1,18 @@
 package entity;
 
+import java.util.Date;
+
 import anotation.Column;
 import anotation.Entity;
 import anotation.Table;
 
 @Entity
 @Table(name = "building")
-public class BuildingEntity extends BaseEntity {
+public class BuildingEntity  {
 
 
+	@Column(name = "id")
+	private Long id;
 
 	@Column(name = "name")
 	private String name;
@@ -26,7 +30,7 @@ public class BuildingEntity extends BaseEntity {
 	private Integer numberOfBasement;
 
 	@Column(name = "floorarea")
-	private Integer floorarea;
+	private Integer floorArea;
 
 	@Column(name = "direction")
 	private String direction;
@@ -82,6 +86,18 @@ public class BuildingEntity extends BaseEntity {
 	@Column(name = "managerphone")
 	private String managerPhone;
 
+
+	@Column(name = "createddate")
+	private Date createdDate;
+
+	@Column(name = "modifiededdate")
+	private Date modifiededDate;
+
+	@Column(name = "createdby")
+	private String createdBy;
+
+	@Column(name = "modifiededby")
+	private String modifiededBy;
 	
 
 	public String getName() {
@@ -125,11 +141,11 @@ public class BuildingEntity extends BaseEntity {
 	}
 
 	public Integer getFloorarea() {
-		return floorarea;
+		return floorArea;
 	}
 
 	public void setFloorarea(Integer floorarea) {
-		this.floorarea = floorarea;
+		this.floorArea = floorarea;
 	}
 
 	public String getDirection() {
@@ -275,6 +291,43 @@ public class BuildingEntity extends BaseEntity {
 	public void setManagerPhone(String managerPhone) {
 		this.managerPhone = managerPhone;
 	}
+	public Date getCreatedDate() {
+		return createdDate;
+	}
 
+	public void setCreatedDate(Date createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	public Date getModifiedDate() {
+		return modifiededDate;
+	}
+
+	public void setModifiedDate(Date modifiedDate) {
+		this.modifiededDate = modifiedDate;
+	}
+
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+
+	public String getModifiedBy() {
+		return modifiededBy;
+	}
+
+	public void setModifiedBy(String modifiedBy) {
+		this.modifiededBy = modifiedBy;
+	}
+
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	
 }

@@ -1,0 +1,16 @@
+package repository.impl;
+
+import java.lang.reflect.Parameter;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+
+import repository.JPArepository;
+
+public class SimpleJPArepository<T> implements JPArepository<T> {
+	private Class<T> zClass;
+	public SimpleJPArepository(){
+		Type type = this.getClass().getGenericSuperclass();
+		ParameterizedType para = (ParameterizedType) type;
+		zClass = (Class<T>) para.getActualTypeArguments()[0];
+	}
+}

@@ -22,7 +22,7 @@ public class ResultSetMapper<T> {
 					Field[] fields = zClass.getDeclaredFields();
 					while(rs.next()) {
 						T object = zClass.newInstance();
-						for(int i =0 ;i< rsMetadata.getColumnCount() ;++i) {
+						for(int i = 0 ;i < rsMetadata.getColumnCount() ;++i) {
 							String ColumnName = rsMetadata.getColumnName(i+1);
 							Object columnValue = rs.getObject(i+1);							
 							for(Field field : fields) {

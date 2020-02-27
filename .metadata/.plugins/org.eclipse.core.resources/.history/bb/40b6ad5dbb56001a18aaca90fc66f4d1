@@ -1,0 +1,8 @@
+package repository.impl;
+
+import dto.BuildingDTO;
+import repository.IBuildingRepository;
+
+public class BuildingRepository extends SimpleJPArepository<BuildingDTO> implements IBuildingRepository {
+
+}

@@ -6,5 +6,10 @@ import java.util.Map;
 public interface JPArepository<T> {
 	List<T> findAll(Map<String,Object> params,Object... where);
 	List<T> findAll(String sql,Object...where);
-	void insert(Object object);
+	Long insert(Object object);
+	//
+	//T findById(Long id);
+	Long update(Object objectUpdate);
+	//
+	void delete(Long id);
  }

@@ -1,0 +1,16 @@
+package com.laptrinhjavaweb.repository;
+
+import java.util.List;
+import java.util.Map;
+
+public interface JPARepository<T> {
+		
+	void save(T object);
+	void edit(T objectNew);
+	void delete(Long id);
+	//
+
+	
+	List<T> findAll(String sql, Object... where); // hàm này đc truyền câu sql từ repository
+	List<T> findAll(Map<String,Object> params , Object... where);
+}

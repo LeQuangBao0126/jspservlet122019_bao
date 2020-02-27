@@ -1,0 +1,57 @@
+package com.laptrinhjavaweb.api;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.laptrinhjavaweb.api.input.BuildingInput;
+import com.laptrinhjavaweb.builder.BuildingBuilder;
+import com.laptrinhjavaweb.dto.BuildingDTO;
+import com.laptrinhjavaweb.service.IBuildingService;
+import com.laptrinhjavaweb.service.impl.BuildingService;
+import com.laptrinhjavaweb.utils.FormUtil;
+
+@WebServlet(urlPatterns = "/building")
+public class BuildingAPI extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	// lưu ý : get thì dữ liệu nằm trong url ..post man sẽ rõ
+	// post put delete : thì dữ liệu nằm trong body ..post man sẽ rõ
+	public BuildingAPI() {
+		super();
+	}
+	private IBuildingService buildingService = new BuildingService();
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
+		ObjectMapper objectMapper = new ObjectMapper();		
+		BuildingInput buildingInput = FormUtil.toModel(BuildingInput.class, request); //chuyen param thành model
+		//add model vào cái input để xử lý
+		BuildingBuilder builder = new BuildingBuilder.Builder()    
+				.setName(buildingInput.getName())
+				.setDistrict(buildingInput.getDistrict())
+				.setFloorarea(buildingInput.getFloorArea())
+				.setNumberOfBasement(buildingInput.getNumberOfBasement())
+				.setRentAreaFrom(buildingInput.getRentAreaFrom())
+				.setRentAreaTo(buildingInput.getRentAreaTo())
+				.setRentCostFrom(buildingInput.getRentCostFrom())
+				.setRentCostTo(buildingInput.getRentCostTo())
+				.setStaffId(buildingInput.getStaffId())
+				.setTypes(buildingInput.getTypes())
+				.build();
+		
+		List<BuildingDTO> results = buildingService.findAll(builder);
+		objectMapper.writeValue(response.getOutputStream(), results);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

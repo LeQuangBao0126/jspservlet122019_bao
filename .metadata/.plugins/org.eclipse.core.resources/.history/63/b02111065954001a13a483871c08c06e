@@ -1,0 +1,13 @@
+package com.laptrinhjavaweb.api.input;
+
+public class BuildingInput {
+	private String name;
+	private String district;
+	private String numberOfBasement;
+	private String floorArea;
+	private String[] types = new String[] {};
+	private String rentAreaFrom;
+	private String rentAreaTo;
+	private String rentCostFrom;
+	private String rentCostTo;
+}

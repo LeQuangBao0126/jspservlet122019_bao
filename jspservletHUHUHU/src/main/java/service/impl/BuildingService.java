@@ -1,6 +1,7 @@
 package service.impl;
 
 import java.lang.reflect.Field;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,17 +9,21 @@ import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 
+import api.output.BuildingTypeOutput;
 import builder.BuildingSearchBuilder;
 import converter.BuildingConverter;
 import dto.BuildingDTO;
 import entity.BuildingEntity;
+import enums.BuildingTypeEnum;
 import repository.IBuildingRepository;
 import repository.impl.BuildingRepository;
 import service.IBuildingService;
 
 public class BuildingService implements IBuildingService {
+	
 	private IBuildingRepository buildingRepository = new BuildingRepository();
 	private BuildingConverter buildingConverter = new BuildingConverter();
+	
 	@Override
 	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
 		List<BuildingDTO> results = new ArrayList<>();
@@ -42,7 +47,9 @@ public class BuildingService implements IBuildingService {
 		try {
 			Field[] fields = BuildingSearchBuilder.class.getDeclaredFields();
 			for(Field field : fields) {
-				if(!field.getName().startsWith("rentArea") && !field.getName().equals("types")){
+				if(!field.getName().startsWith("rentArea") && !field.getName().equals("types") 
+						&& !field.getName().equals("staffId") && !field.getName().startsWith("rentCost"))
+				{					
 					field.setAccessible(true);
 					if(field.get(builder) instanceof String) {
 						properties.put(field.getName().toLowerCase(), field.get(builder));
@@ -58,10 +65,44 @@ public class BuildingService implements IBuildingService {
 		}
 		return properties;
 	}
+	//them thằng dto khi chưa có id ..trả ra thằng dto đó có id ..
 	@Override
-	public void save(BuildingDTO dto) {
+	public BuildingDTO save(BuildingDTO dto) {
 		BuildingEntity entity = buildingConverter.convertDTOToEntity(dto);
-		buildingRepository.insert(entity);
+		Long buildingId = buildingRepository.insert(entity); // có long rồi
+		BuildingDTO resultDTO =  buildingConverter.convertEntityToDTO(buildingRepository.findById(buildingId)) ;			 
+		return	resultDTO;
 	}
 
+	
+	
+	@Override
+	public List<BuildingTypeOutput> getBuildingType() {
+		List<BuildingTypeOutput> result = new ArrayList<>();
+		for(BuildingTypeEnum item : BuildingTypeEnum.values() ) {
+			BuildingTypeOutput buildingTypeOutput = new BuildingTypeOutput();
+			buildingTypeOutput.setName(item.getEnumValue());
+			buildingTypeOutput.setCode(item.toString());
+			result.add(buildingTypeOutput);
+		}
+		return result;
+	}
+	@Override
+	public BuildingDTO update(BuildingDTO updateDto) {
+		BuildingDTO Oldbuildingdto = buildingConverter.convertEntityToDTO(buildingRepository.findById(updateDto.getId()));
+		updateDto.setCreatedDate(Oldbuildingdto.getCreatedDate());
+		updateDto.setCreatedBy(Oldbuildingdto.getCreatedBy());
+		updateDto.setModifiededDate(new Timestamp(System.currentTimeMillis()));
+		//updateDto.setModifiedBy();
+		Long id = buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));
+		
+		BuildingDTO resultdto =buildingConverter.convertEntityToDTO(buildingRepository.findById(id)) ;
+		return resultdto;
+	}
+	@Override
+	public void delete(Long[] ids) {
+		for(Long id : ids) {
+			buildingRepository.delete(id);
+		}
+	}
 }

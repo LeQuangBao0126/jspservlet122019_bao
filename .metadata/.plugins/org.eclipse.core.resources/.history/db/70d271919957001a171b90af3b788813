@@ -1,0 +1,17 @@
+package service.impl;
+
+import java.util.List;
+
+import builder.BuildingSearchBuilder;
+import dto.BuildingDTO;
+import service.IBuildingService;
+
+public class BuildingService implements IBuildingService {
+
+	@Override
+	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
+		
+		return null;
+	}
+
+}

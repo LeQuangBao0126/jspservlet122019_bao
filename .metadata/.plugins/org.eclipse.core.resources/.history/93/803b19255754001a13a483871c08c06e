@@ -1,0 +1,37 @@
+package com.laptrinhjavaweb.api;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.laptrinhjavaweb.api.input.BuildingInput;
+import com.laptrinhjavaweb.utils.FormUtil;
+
+@WebServlet(urlPatterns = "/building")
+public class BuildingAPI extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	// lưu ý : get thì dữ liệu nằm trong url ..post man sẽ rõ
+	// post put delete : thì dữ liệu nằm trong body ..post man sẽ rõ
+	public BuildingAPI() {
+		super();
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// tự động sẽ chuyển những param trong request thành model...có name nó map vô
+		BuildingInput buildingInput = FormUtil.toModel(BuildingInput.class, request);
+		// trả ra sẻ trả ra Json
+		
+
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

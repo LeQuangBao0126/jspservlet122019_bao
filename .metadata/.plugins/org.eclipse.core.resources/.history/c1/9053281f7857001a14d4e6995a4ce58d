@@ -1,0 +1,24 @@
+package builder;
+
+public class BuildingSearchBuilder {
+	private String name;
+	private String district;
+	private String floorArea;
+	private String numberOfBasement;
+	
+	
+	public BuildingSearchBuilder(Builder builder) {
+		this.name = builder.name;
+		this.district = builder.district;
+		this.floorArea = builder.floorArea;
+	}
+	public static class Builder {
+		private String name;
+		private String district;
+		private String floorArea;
+		
+		public BuildingSearchBuilder build() {
+			return new BuildingSearchBuilder(this);
+		}
+	}
+}
