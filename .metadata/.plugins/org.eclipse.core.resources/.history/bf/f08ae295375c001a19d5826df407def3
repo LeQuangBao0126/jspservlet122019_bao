@@ -1,0 +1,30 @@
+package api.input;
+
+public class UserAssignInput {
+	private Long id;
+	private String checked;
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public String getChecked() {
+		return checked;
+	}
+	public void setChecked(String checked) {
+		if(checked != null && !checked.isEmpty()) {
+			this.checked = "checked";
+		}else {
+			this.checked ="";
+		}
+		
+	}
+	
+}

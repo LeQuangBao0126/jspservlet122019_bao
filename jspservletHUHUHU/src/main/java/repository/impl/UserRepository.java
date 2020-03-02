@@ -16,4 +16,11 @@ public class UserRepository extends SimpleJPArepository<UserEntity> implements I
 		return this.findAll(sql.toString());
 	}
 
+	@Override
+	public UserEntity findByIdAndBuildingId(Long userId, Long buildingId) {
+		String sql = "select * from user u inner join assignmentbuilding ab on u.id = ab.staffid "
+				+ "where u.id = '"+userId+"' and ab.buildingid = "+buildingId+"";
+		return this.findAll(sql).get(0);//trả ra list mà lấy cái đầu tiên
+	}
+
 }

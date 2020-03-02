@@ -1,0 +1,13 @@
+package service.impl;
+
+import service.IAssignmentBuilding;
+
+public class AssignmentBuilding implements IAssignmentBuilding {
+
+	@Override
+	public Long insertAssignmentBuilding(Long userId, Long buildingId) {
+		
+		return null;
+	}
+
+}

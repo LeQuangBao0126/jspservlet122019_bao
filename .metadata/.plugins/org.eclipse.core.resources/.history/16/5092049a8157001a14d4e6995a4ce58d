@@ -1,7 +1,0 @@
-package repository;
-
-import entity.BuildingEntity;
-
-public interface IBuildingRepository extends JPArepository<BuildingEntity> {
-		void insert();
-}

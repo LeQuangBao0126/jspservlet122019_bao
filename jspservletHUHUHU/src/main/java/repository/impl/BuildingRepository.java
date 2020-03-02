@@ -14,6 +14,7 @@ public class BuildingRepository extends SimpleJPArepository<BuildingEntity> impl
 
 	@Override
 	public Long insert(BuildingEntity entity) {
+	
 		return super.insert(entity);
 	}
 

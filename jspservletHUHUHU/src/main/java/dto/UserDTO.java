@@ -12,6 +12,8 @@ public class UserDTO  {
 	private Date modifiededDate;
 	private String createdBy;
 	private String modifiededBy;
+	private String checked;
+	
 	public String getUserName() {
 		return userName;
 	}
@@ -74,6 +76,14 @@ public class UserDTO  {
 
 	public void setModifiededBy(String modifiededBy) {
 		this.modifiededBy = modifiededBy;
+	}
+
+	public String getChecked() {
+		return checked;
+	}
+
+	public void setChecked(String checked) {
+		this.checked = checked;
 	}
 	
 	

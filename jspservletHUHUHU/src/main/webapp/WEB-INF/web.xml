@@ -64,4 +64,14 @@
     <servlet-name>BuildingTypeAPI</servlet-name>
     <url-pattern>/BuildingTypeAPI</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AssignmentBuildingAPI</display-name>
+    <servlet-name>AssignmentBuildingAPI</servlet-name>
+    <servlet-class>api.AssignmentBuildingAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AssignmentBuildingAPI</servlet-name>
+    <url-pattern>/AssignmentBuildingAPI</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -16,13 +16,16 @@ import dto.BuildingDTO;
 import entity.BuildingEntity;
 import enums.BuildingTypeEnum;
 import repository.IBuildingRepository;
+import repository.IRentAreaRepository;
 import repository.impl.BuildingRepository;
+import repository.impl.RentAreaRepository;
 import service.IBuildingService;
 
 public class BuildingService implements IBuildingService {
 	
 	private IBuildingRepository buildingRepository = new BuildingRepository();
 	private BuildingConverter buildingConverter = new BuildingConverter();
+	private IRentAreaRepository rentAreaRepository = new RentAreaRepository();
 	
 	@Override
 	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
@@ -68,9 +71,28 @@ public class BuildingService implements IBuildingService {
 	//them thằng dto khi chưa có id ..trả ra thằng dto đó có id ..
 	@Override
 	public BuildingDTO save(BuildingDTO dto) {
-		BuildingEntity entity = buildingConverter.convertDTOToEntity(dto);
-		Long buildingId = buildingRepository.insert(entity); // có long rồi
-		BuildingDTO resultDTO =  buildingConverter.convertEntityToDTO(buildingRepository.findById(buildingId)) ;			 
+		 BuildingEntity entity = buildingConverter.convertDTOToEntity(dto);
+		 StringBuilder sbbuildingtype = new StringBuilder("");
+		 if(dto.getBuildingTypes()!=null) {
+			 for(String item : dto.getBuildingTypes()) {
+				 if(sbbuildingtype.length() > 1) {
+					 sbbuildingtype.append(",");
+				 }
+				 sbbuildingtype.append(item);
+			 }
+		 }
+		 entity.setType(sbbuildingtype.toString());
+		 String rentAreas = dto.getRentAreas();
+		
+		 //xử lý trích xuất từ chuỗi 100,200,300 thành 1 mảng rồi lặp..insert toà nhà truoc rồi mới insert rentarea
+		 Long id = buildingRepository.insert(entity); // có long rồi
+		 String[] arr = rentAreas.split(",");
+		 
+		 for(String rentArea : arr ) {
+			 rentAreaRepository.insert(rentArea,id);
+		 }
+
+		BuildingDTO resultDTO =  buildingConverter.convertEntityToDTO(buildingRepository.findById(id)) ;			 
 		return	resultDTO;
 	}
 

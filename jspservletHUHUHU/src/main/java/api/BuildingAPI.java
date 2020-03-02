@@ -1,8 +1,6 @@
 package api;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -34,6 +32,8 @@ public class BuildingAPI extends HttpServlet {
 		String action = request.getParameter("action");
 		ObjectMapper objectMapper = new ObjectMapper();
 		if(action!= null && action.equals("SEARCH_BUILDING")) {		
+			//lấy mấy cái request param -> thành dto
+			// còn httputil kia là lấy json -> dto
 			BuildingInput buildingInput = FormUtil.toModel(BuildingInput.class, request);
 			BuildingSearchBuilder builder = new BuildingSearchBuilder.Builder()
 					.setName(buildingInput.getName())
@@ -45,7 +45,7 @@ public class BuildingAPI extends HttpServlet {
 					.setRentCostFrom(buildingInput.getRentCostFrom())
 					.setRentCostTo(buildingInput.getRentCostTo())
 					.setStaffId(buildingInput.getStaffId())
-					.setTypes(buildingInput.getTypes())
+					.setTypes(buildingInput.getBuildingTypes())
 					.build();
 			List<BuildingDTO> result = buildingService.findAll(builder);
 			objectMapper.writeValue(response.getOutputStream(), result);	
@@ -61,10 +61,8 @@ public class BuildingAPI extends HttpServlet {
 		ObjectMapper objectMapper = new ObjectMapper();
 		request.setCharacterEncoding("UTF-8");
 		BuildingDTO buildingDto = HttpUtil.of(request.getReader()).toModel(BuildingDTO.class);
-		//tra ra dto 
-		BuildingDTO building = buildingService.save(buildingDto);
-		//xong rồi nhưng mà làm thêm cái trả ra để biết nó trả ra cái gì		
-		 objectMapper.writeValue(response.getOutputStream(), building);
+		buildingDto = buildingService.save(buildingDto);		
+		objectMapper.writeValue(response.getOutputStream(), buildingDto);
 	}
 	
 	@Override
@@ -78,7 +76,7 @@ public class BuildingAPI extends HttpServlet {
 	@Override
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ObjectMapper objectMapper = new ObjectMapper();
-		 ArrayIdDelete arr = objectMapper.readValue(request.getReader(),ArrayIdDelete.class);		
+		ArrayIdDelete arr = objectMapper.readValue(request.getReader(),ArrayIdDelete.class);		
 		buildingService.delete(arr.getIds());
 	}
 }

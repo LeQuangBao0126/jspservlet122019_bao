@@ -9,8 +9,11 @@ public class BuildingInput {
 	private String rentAreaTo;
 	private String rentCostFrom;
 	private String rentCostTo;
-	private String[] types = new String[] {};
 	private Long staffId;
+	//
+	private String[] buildingTypes = new String[] {};
+	private String rentAreas = new String();
+	
 	
 	public String getName() {
 		return name;
@@ -60,17 +63,23 @@ public class BuildingInput {
 	public void setRentCostTo(String rentCostTo) {
 		this.rentCostTo = rentCostTo;
 	}
-	public String[] getTypes() {
-		return types;
+	public String[] getBuildingTypes() {
+		return buildingTypes;
 	}
-	public void setTypes(String[] types) {
-		this.types = types;
+	public void setBuildingTypes(String[] types) {
+		this.buildingTypes = types;
 	}
 	public Long getStaffId() {
 		return staffId;
 	}
 	public void setStaffId(Long staffId) {
 		this.staffId = staffId;
+	}
+	public String getRentAreas() {
+		return rentAreas;
+	}
+	public void setRentAreas(String rentAreas) {
+		this.rentAreas = rentAreas;
 	}
 	
 }

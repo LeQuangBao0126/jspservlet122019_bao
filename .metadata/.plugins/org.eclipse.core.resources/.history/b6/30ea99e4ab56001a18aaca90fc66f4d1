@@ -1,7 +1,0 @@
-package repository.impl;
-
-import repository.JPArepository;
-
-public class SimpleJPArepository<T> implements JPArepository<T> {
-
-}

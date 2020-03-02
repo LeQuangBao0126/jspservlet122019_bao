@@ -1,0 +1,15 @@
+package service.impl;
+
+import repository.IAssignmentBuildingRepository;
+import repository.impl.AssignmentBuildingRepository;
+import service.IAssignmentBuildingService;
+
+public class AssignmentBuildingService implements IAssignmentBuildingService {
+	private IAssignmentBuildingRepository abr = new AssignmentBuildingRepository();
+	@Override
+	public Long insertAssignmentBuilding(Long userId, Long buildingId) {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+package service;
+
+import dto.AssignmentBuildingDTO;
+import entity.AssignmentBuildingEntity;
+
+public interface IAssignmentBuildingService {
+	Long insertAssignmentBuilding(AssignmentBuildingDTO dto); 
+}

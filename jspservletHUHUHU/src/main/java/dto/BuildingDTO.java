@@ -10,7 +10,7 @@ public class BuildingDTO {
 	private String street;
 	private String structure;
 	private Integer numberOfBasement;
-	private Integer floorArea;
+	private Integer floorarea;
 	private String direction;
 	private String level;
 	private String rentAreaDescription;
@@ -33,9 +33,10 @@ public class BuildingDTO {
 	private Date modifiededDate;
 	private String createdBy;
 	private String modifiededBy;
+	
 	//phải có buildingtype thừ client truyền về là mảng...còn cái type là get từ entity trong db là chuỗi
 	private String[] buildingTypes = new String[] {};
-	
+	private String rentAreas = new String();
 	
 	
 	public String[] getBuildingTypes() {
@@ -75,10 +76,10 @@ public class BuildingDTO {
 		this.numberOfBasement = numberOfBasement;
 	}
 	public Integer getFloorarea() {
-		return floorArea;
+		return floorarea;
 	}
 	public void setFloorarea(Integer floorarea) {
-		this.floorArea = floorarea;
+		this.floorarea = floorarea;
 	}
 	public String getDirection() {
 		return direction;
@@ -217,6 +218,12 @@ public class BuildingDTO {
 	}
 	public void setModifiededBy(String modifiededBy) {
 		this.modifiededBy = modifiededBy;
+	}
+	public String getRentAreas() {
+		return rentAreas;
+	}
+	public void setRentAreas(String rentAreas) {
+		this.rentAreas = rentAreas;
 	}
 	
 }

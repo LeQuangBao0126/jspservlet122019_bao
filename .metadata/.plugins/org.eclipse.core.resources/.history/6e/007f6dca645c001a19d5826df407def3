@@ -1,0 +1,14 @@
+package repository.impl;
+
+import entity.RentAreaEntity;
+import repository.IRentAreaRepository;
+
+
+public class RentAreaRepository extends SimpleJPArepository<RentAreaEntity> implements IRentAreaRepository {
+
+	@Override
+	public void insert(String rentArea,Long buildingId) {
+		
+	}
+
+}

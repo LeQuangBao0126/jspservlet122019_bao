@@ -1,7 +1,0 @@
-package repository;
-
-import dto.BuildingDTO;
-
-public interface IBuildingRepository extends JPArepository<BuildingDTO> {
-
-}

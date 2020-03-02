@@ -24,5 +24,11 @@ public class UserService implements IUserService {
 	       }
 		return listDto;
 	}
+	@Override
+	public UserDTO checkUserAssignment(Long userId,Long buildingId) {
+		//tìm xem nhan vien có đang quản lý toà nhà ko. findByIdAndBuildingId
+		UserDTO userDTO  =userConverter.convertEntityToDTO(userRepository.findByIdAndBuildingId(userId, buildingId));
+		return userDTO;
+	}
 
 }
