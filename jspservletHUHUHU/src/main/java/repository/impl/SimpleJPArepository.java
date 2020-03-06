@@ -112,7 +112,8 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 				}
 				statement = connection.createStatement();
 				resultset = statement.executeQuery(builder.toString());
-				return resultSetMapper.mapRow(resultset, zClass);
+				List<T> list = resultSetMapper.mapRow(resultset, zClass);
+				return list;
 			} catch (SQLException e) {
 				System.out.println(e.getMessage());
 				return new ArrayList<>();

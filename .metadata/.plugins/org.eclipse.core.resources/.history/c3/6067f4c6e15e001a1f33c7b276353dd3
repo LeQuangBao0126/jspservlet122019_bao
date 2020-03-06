@@ -43,9 +43,7 @@ public class AssignmentBuildingAPI extends HttpServlet {
 			Long buildingId = assignmentInput.getBuildingId();
 			for(Long userId : assignmentInput.getStaffIds()) {
 				//có id r ..kiem tra nếu nó null thì thim vô..còn có r thì ko làm
-				// kiểm tra coi nhan vien có dc giao toà nhà chưa
 				UserDTO userDTO = userService.checkUserAssignment(userId, buildingId);
-				
 				if(userDTO == null) {
 					// them vào assignment
 					AssignmentBuildingDTO assignmentBuildingdto  = new AssignmentBuildingDTO();
