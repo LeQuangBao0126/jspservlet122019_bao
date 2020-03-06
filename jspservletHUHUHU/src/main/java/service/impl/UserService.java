@@ -2,7 +2,6 @@ package service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import converter.UserConverter;
 import dto.UserDTO;
@@ -25,10 +24,14 @@ public class UserService implements IUserService {
 		return listDto;
 	}
 	@Override
-	public UserDTO checkUserAssignment(Long userId,Long buildingId) {
+	public boolean checkUserAssignment(Long userId,Long buildingId) {
 		//tìm xem nhan vien có đang quản lý toà nhà ko. findByIdAndBuildingId
 		UserDTO userDTO  =userConverter.convertEntityToDTO(userRepository.findByIdAndBuildingId(userId, buildingId));
-		return userDTO;
+		if(userDTO == null) {
+			return false;
+		}else {
+			return true;
+		}
 	}
 
 }

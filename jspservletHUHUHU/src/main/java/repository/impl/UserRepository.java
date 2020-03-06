@@ -22,6 +22,6 @@ public class UserRepository extends SimpleJPArepository<UserEntity> implements I
 				+ "where u.id = "+userId+" and ab.buildingid = "+buildingId+"";
 		UserEntity userEntity = this.findAll(sql).get(0) != null ? this.findAll(sql).get(0) : null;
 		return userEntity;//trả ra list mà lấy cái đầu tiên
-	}
+	}//tìm nhan vien có trong bảng assignmentbuilding ko..nếu có id và buildingid thì trả ra nv đó .. ko thì null
 
 }
