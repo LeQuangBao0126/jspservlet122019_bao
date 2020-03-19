@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import api.output.BuildingTypeOutput;
 import enums.BuildingTypeEnum;
 
-@WebServlet("/buildingtype")
+@WebServlet("/api-buildingtype")
 public class BuildingTypeAPI extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

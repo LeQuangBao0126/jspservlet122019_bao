@@ -1,0 +1,37 @@
+package api.input;
+
+import java.util.Date;
+
+public class BuildingInput {
+	
+	private String name;
+	private Integer floorArea;
+	private String district;
+	private Integer numberOfBasement;
+	private Long staffId;
+	private String types;
+	private String rentAreaFrom;
+	private String rentAreaTo;
+	private String rentCostFrom;
+	private String rentCostTo;
+
+
+
+
+
+	
+
+	private String[] buildingTypes = new String[] {};
+	private String rentAreas = new String();
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
+}

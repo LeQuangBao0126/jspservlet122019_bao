@@ -1,7 +1,0 @@
-package service;
-
-import dto.AssignmentBuildingDTO;
-
-public interface IAssignmentBuildingService {
-	Long insertAssignmentBuilding(AssignmentBuildingDTO dto); 
-}

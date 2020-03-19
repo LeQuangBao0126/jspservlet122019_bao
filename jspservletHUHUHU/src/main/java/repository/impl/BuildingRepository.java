@@ -87,6 +87,12 @@ public class BuildingRepository extends SimpleJPArepository<BuildingEntity> impl
 	public void delete(Long id) {
 		super.delete(id);
 	}
+
+	@Override
+	public List<BuildingEntity> getListBuilding() {
+		String sql = "select * from building";
+		return this.findAll(sql);
+	}
 	
 
 

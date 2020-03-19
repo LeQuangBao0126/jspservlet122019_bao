@@ -1,14 +1,16 @@
 package api.input;
 
 public class ArrayIdDelete {
-	private Long[] ids;
+	private Long[] buildingIds;
 
-	public Long[] getIds() {
-		return ids;
+	public Long[] getBuildingIds() {
+		return buildingIds;
 	}
 
-	public void setIds(Long[] ids) {
-		this.ids = ids;
+	public void setBuildingIds(Long[] buildingIds) {
+		this.buildingIds = buildingIds;
 	}
+
+	
 	
 }

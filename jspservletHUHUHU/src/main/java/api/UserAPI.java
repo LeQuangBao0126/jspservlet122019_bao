@@ -15,7 +15,7 @@ import dto.UserDTO;
 import service.IUserService;
 import service.impl.UserService;
 
-@WebServlet("/user")
+@WebServlet("/api-user")
 public class UserAPI extends HttpServlet {
 	//user thì ko có action mà có roleCode : vd Staff hay manager
 	private static final long serialVersionUID = 1L;
@@ -23,7 +23,9 @@ public class UserAPI extends HttpServlet {
     public UserAPI() {
         super();     
     }
-
+//trả ra 1 danh sách các nhan vien có checked  = checked
+    //trong userdto . co String checked..nếu 
+    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 			String action = request.getParameter("action");
 			String roleCode = request.getParameter("rolecode");

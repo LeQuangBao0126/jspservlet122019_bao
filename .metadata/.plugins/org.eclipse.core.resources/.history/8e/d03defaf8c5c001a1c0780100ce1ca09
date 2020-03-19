@@ -1,7 +1,0 @@
-package repository.impl;
-
-import repository.IAssignmentBuildingRepository;
-
-public class AssignmentBuildingRepository implements IAssignmentBuildingRepository {
-
-}

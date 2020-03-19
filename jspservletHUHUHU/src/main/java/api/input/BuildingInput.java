@@ -1,19 +1,22 @@
 package api.input;
 
 public class BuildingInput {
+	
 	private String name;
 	private String district;
+	private String street;
 	private String floorArea;
 	private String numberOfBasement;
 	private String rentAreaFrom;
 	private String rentAreaTo;
 	private String rentCostFrom;
 	private String rentCostTo;
+	private String[] types = new String[] {};
 	private Long staffId;
-	//
+
+
 	private String[] buildingTypes = new String[] {};
 	private String rentAreas = new String();
-	
 	
 	public String getName() {
 		return name;
@@ -21,23 +24,36 @@ public class BuildingInput {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDistrict() {
-		return district;
-	}
-	public void setDistrict(String district) {
-		this.district = district;
-	}
 	public String getFloorArea() {
 		return floorArea;
 	}
 	public void setFloorArea(String floorArea) {
 		this.floorArea = floorArea;
 	}
+	public String getDistrict() {
+		return district;
+	}
+	public void setDistrict(String district) {
+		this.district = district;
+	}
+	
 	public String getNumberOfBasement() {
 		return numberOfBasement;
 	}
 	public void setNumberOfBasement(String numberOfBasement) {
 		this.numberOfBasement = numberOfBasement;
+	}
+	public String[] getTypes() {
+		return types;
+	}
+	public void setTypes(String[] types) {
+		this.types = types;
+	}
+	public Long getStaffId() {
+		return staffId;
+	}
+	public void setStaffId(Long staffId) {
+		this.staffId = staffId;
 	}
 	public String getRentAreaFrom() {
 		return rentAreaFrom;
@@ -66,14 +82,8 @@ public class BuildingInput {
 	public String[] getBuildingTypes() {
 		return buildingTypes;
 	}
-	public void setBuildingTypes(String[] types) {
-		this.buildingTypes = types;
-	}
-	public Long getStaffId() {
-		return staffId;
-	}
-	public void setStaffId(Long staffId) {
-		this.staffId = staffId;
+	public void setBuildingTypes(String[] buildingTypes) {
+		this.buildingTypes = buildingTypes;
 	}
 	public String getRentAreas() {
 		return rentAreas;
@@ -81,5 +91,16 @@ public class BuildingInput {
 	public void setRentAreas(String rentAreas) {
 		this.rentAreas = rentAreas;
 	}
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	
+	
+	
+	
+	
 	
 }

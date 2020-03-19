@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import api.input.AssignmentInput;
-import dto.AssignmentBuildingDTO;
+import api.input.AssignmentBuildingInput;
+
 import service.IAssignmentBuildingService;
 import service.IBuildingService;
 import service.IUserService;
@@ -21,7 +21,7 @@ import service.impl.UserService;
 import utils.HttpUtil;
 
 
-@WebServlet("/assignment-building")
+@WebServlet("/api-assignmentbuilding")
 public class AssignmentBuildingAPI extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private IBuildingService buildingService = new BuildingService();
@@ -36,7 +36,7 @@ public class AssignmentBuildingAPI extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ObjectMapper objectMapper = new ObjectMapper();
-		AssignmentInput assignmentInput = HttpUtil.of(request.getReader()).toModel(AssignmentInput.class);
+		AssignmentBuildingInput assignmentInput = HttpUtil.of(request.getReader()).toModel(AssignmentBuildingInput.class);
 		
 	//buildingId và staffids[2,3,4]
 		if(assignmentInput.getStaffIds().length >0) {
@@ -44,9 +44,9 @@ public class AssignmentBuildingAPI extends HttpServlet {
 			for(Long userId : assignmentInput.getStaffIds()) {
 				//có id r ..kiem tra nếu nó null thì thim vô..còn có r thì ko làm
 				// kiểm tra coi nhan vien có dc giao toà nhà chưa
-				boolean check = userService.checkUserAssignment(userId, buildingId);
+			//	boolean check = userService.checkUserAssignment(userId, buildingId);
 				
-				if(!check ) {
+			/*	if(!check ) {
 					// them vào assignment
 					AssignmentBuildingDTO assignmentBuildingdto  = new AssignmentBuildingDTO();
 					assignmentBuildingdto.setbuildingId(buildingId);
@@ -54,7 +54,7 @@ public class AssignmentBuildingAPI extends HttpServlet {
 					abs.insertAssignmentBuilding(assignmentBuildingdto);
 				}else {
 					continue;
-				}
+				}*/
 			}			
 		}
 		

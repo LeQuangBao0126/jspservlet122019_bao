@@ -1,0 +1,4 @@
+function haha(){
+	
+	alert("bobaobao");
+}

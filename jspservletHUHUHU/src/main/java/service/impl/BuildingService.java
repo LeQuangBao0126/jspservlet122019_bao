@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang.StringUtils;
 
@@ -126,5 +127,12 @@ public class BuildingService implements IBuildingService {
 		for(Long id : ids) {
 			buildingRepository.delete(id);
 		}
+	}
+	@Override
+	public List<BuildingDTO> getAll() {
+		 List<BuildingEntity> list = buildingRepository.getListBuilding();
+		 List<BuildingDTO> dto = list.stream()
+				 .map(item-> buildingConverter.convertEntityToDTO(item)).collect(Collectors.toList());
+		return dto;
 	}
 }

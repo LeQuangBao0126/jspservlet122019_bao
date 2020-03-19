@@ -1,7 +1,0 @@
-package repository.impl;
-
-import repository.IRentAreaRpository;
-
-public class RentAreaRepository implements IRentAreaRpository {
-
-}

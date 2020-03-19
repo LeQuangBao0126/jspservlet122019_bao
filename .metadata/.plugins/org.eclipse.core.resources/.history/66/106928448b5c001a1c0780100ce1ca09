@@ -1,5 +1,0 @@
-package service;
-
-public interface IAssignmentBuilding {
-	Long insertAssignmentBuilding(Long userId,Long buildingId); 
-}

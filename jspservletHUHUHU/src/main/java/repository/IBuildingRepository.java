@@ -12,4 +12,5 @@ public interface IBuildingRepository extends JPArepository<BuildingEntity> {
 		BuildingEntity findById(Long buildingId);
 		Long update(BuildingEntity entity);
 		void delete(Long id );
+		List<BuildingEntity> getListBuilding();
 }
