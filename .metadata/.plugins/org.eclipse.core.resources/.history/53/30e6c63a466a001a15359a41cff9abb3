@@ -1,0 +1,5 @@
+package api.input;
+
+public class StaffInput {
+
+}

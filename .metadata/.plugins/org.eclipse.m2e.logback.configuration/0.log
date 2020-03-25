@@ -4314,3 +4314,1042 @@
 2020-03-19 16:07:24,426 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-03-19 16:07:24,441 [Worker-176: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-03-19 16:07:24,441 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:21:16,715 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-19 20:21:39,700 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:21:39,769 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:21:39,773 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:21:39,799 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:35:55,682 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:35:55,705 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:35:55,706 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:35:55,771 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:36:13,374 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:36:13,404 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:36:13,407 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:36:13,426 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:36:15,855 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:36:15,872 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:36:15,874 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:36:15,903 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:40:43,400 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:40:43,416 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:40:43,419 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:40:43,433 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:41:02,984 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:41:03,008 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:41:03,008 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:41:03,023 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:42:58,089 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:42:58,182 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:42:58,186 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:42:58,214 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:45:45,931 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:45:45,945 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:45:45,949 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:45:45,965 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:46:45,749 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:46:45,779 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:46:45,781 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:46:45,801 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:48:24,025 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:48:24,097 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:48:24,099 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:48:24,112 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:53:23,073 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:53:23,095 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:53:23,097 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:53:23,114 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:53:27,083 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:53:27,105 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:53:27,105 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:53:27,121 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:54:27,918 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:54:27,939 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:54:27,942 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:54:27,952 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:57:17,948 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:57:18,021 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:57:18,022 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:57:18,062 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:58:51,189 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:58:51,240 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:58:51,241 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:58:51,302 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:58:53,350 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:58:53,364 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 20:58:53,367 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 20:58:53,381 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:02:44,920 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:02:44,937 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:02:44,939 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:02:44,949 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:04:51,145 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:04:51,162 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:04:51,163 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:04:51,174 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:07:31,573 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:07:31,587 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:07:31,589 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:07:31,616 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:10:34,692 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:10:34,721 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:10:34,723 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:10:34,732 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:12:20,954 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:12:21,003 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:12:21,005 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:12:21,021 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:13:22,523 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:13:22,540 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:13:22,542 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:13:22,562 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:28:01,467 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:28:01,504 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:28:01,505 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:28:01,520 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:28:54,174 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:28:54,202 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:28:54,204 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:28:54,216 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:29:55,002 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:29:55,026 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:29:55,027 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:29:55,036 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:41:56,387 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:41:56,418 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-19 21:41:56,458 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-19 21:41:56,479 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 07:50:31,788 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-20 07:50:48,446 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 07:50:48,473 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 07:50:48,477 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 07:50:48,488 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:18,348 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:18,383 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:18,385 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:18,397 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:45,644 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:45,664 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:45,666 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:45,686 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:47,778 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:47,788 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:47,792 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:47,809 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:55,903 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:55,915 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:00:55,917 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:00:55,928 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:01:18,838 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:01:18,858 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:01:18,859 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:01:18,876 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:01:26,880 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:01:26,904 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:01:26,907 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:01:26,925 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:02:38,003 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:02:38,035 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:02:38,038 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:02:38,083 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:02:49,684 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:02:49,705 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:02:49,707 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:02:49,719 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:04:05,678 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:04:05,737 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:04:05,741 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:04:05,768 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:04:09,044 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:04:09,053 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:04:09,057 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:04:09,125 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:06:57,467 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:06:57,485 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:06:57,488 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:06:57,499 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:07:03,471 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:07:03,489 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:07:03,493 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:07:03,512 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:11:33,680 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:11:33,691 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:11:33,693 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:11:33,702 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:11:47,978 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:11:48,003 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:11:48,008 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:11:48,021 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:04,147 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:04,158 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:04,161 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:04,176 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:16,614 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:16,634 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:16,635 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:16,653 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:19,451 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:19,462 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:19,467 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:19,493 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:25,924 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:25,941 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:12:25,942 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:12:25,954 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:17:35,240 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:17:35,279 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:17:35,281 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:17:35,293 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:18:29,752 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:18:29,777 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:18:29,780 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:18:29,801 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:29:05,507 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:29:05,520 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:29:05,521 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:29:05,545 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:29:14,932 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:29:15,069 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:29:15,070 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:29:15,090 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:36:03,424 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:36:03,441 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:36:03,448 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:36:03,467 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:46:24,801 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:46:24,848 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 08:46:24,848 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 08:46:24,881 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:09:33,816 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 09:09:33,864 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:09:33,866 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 09:09:33,905 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:10:04,860 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 09:10:04,871 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:10:04,875 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-20 09:10:04,905 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:19:11,751 [Worker-45: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lequangbao:jspservletHUHUHU:1.0 @ C:\Users\BAO\Desktop\jspservlet122019_bao\jspservletHUHUHU\pom.xml.
+2020-03-20 09:19:13,507 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:19:13,508 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:19:13,512 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:19:13,512 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:19:13,513 [Worker-45: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jspservletHUHUHU
+2020-03-20 09:19:13,514 [Worker-45: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jspservletHUHUHU
+2020-03-20 09:19:13,526 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:24:42,821 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:24:42,822 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:24:42,824 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:24:42,824 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:37:18,275 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:37:18,276 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:37:18,277 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:37:18,277 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:17,668 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:17,668 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:17,668 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:17,668 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:37,253 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:37,253 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:37,268 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:37,268 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:45,962 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:45,962 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 09:48:45,978 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 09:48:45,978 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 15:32:39,651 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-20 15:32:57,553 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 15:32:57,569 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 15:32:57,569 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 15:32:57,569 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 15:33:58,568 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 15:33:58,584 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-20 15:33:58,584 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-20 15:33:58,584 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-21 11:23:06,012 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-21 11:23:23,926 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-21 11:23:23,926 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-21 11:23:23,942 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-21 11:23:23,942 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:08:32,089 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-24 10:08:45,908 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:08:45,918 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:08:45,922 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:08:45,922 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:09:13,778 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:09:13,785 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:09:13,788 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:09:13,788 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:09:50,114 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:09:50,115 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:09:50,117 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:09:50,118 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:19,307 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:19,308 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:19,312 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:19,313 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:25,871 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:25,871 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:25,874 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:25,876 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:40,494 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:40,496 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:11:40,498 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:11:40,498 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:02,144 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:02,155 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:02,156 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:02,157 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:21,134 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:21,136 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:21,142 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:21,142 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:47,632 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:47,633 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:12:47,636 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:12:47,637 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:04,610 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:04,611 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:04,613 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:04,614 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:34,722 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:34,723 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:34,725 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:34,726 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:36,547 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:36,547 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:13:36,549 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:13:36,557 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:08,778 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:08,784 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:08,793 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:08,794 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:45,280 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:45,281 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:45,284 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:45,284 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:55,575 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:55,576 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:14:55,577 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:14:55,578 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:15:12,898 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:15:12,899 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:15:12,904 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:15:12,904 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:09,592 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:09,593 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:09,595 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:09,597 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:32,307 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:32,308 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:32,329 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:32,330 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:55,940 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:55,940 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:17:55,941 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:17:55,942 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:17,791 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:17,791 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:17,793 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:17,793 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:28,996 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:28,996 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:28,998 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:28,998 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:36,593 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:36,593 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:18:36,595 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:18:36,595 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:20:23,051 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:20:23,052 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:20:23,053 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:20:23,054 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:20:43,614 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:20:43,615 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:20:43,617 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:20:43,617 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:23:35,919 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:23:35,921 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:23:35,922 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:23:35,923 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:27:59,745 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:27:59,746 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:27:59,748 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:27:59,748 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:28:35,683 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:28:35,684 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:28:35,685 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:28:35,685 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:29:28,101 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:29:28,103 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:29:28,105 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:29:28,105 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:21,669 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:21,671 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:21,672 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:21,673 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:37,492 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:37,494 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:37,495 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:37,495 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:45,383 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:45,383 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:45,385 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:45,385 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:57,547 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:57,549 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:30:57,551 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:30:57,552 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:31:07,067 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:31:07,068 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:31:07,069 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:31:07,070 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:32:36,798 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:32:36,799 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:32:36,800 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:32:36,801 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:00,929 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:00,929 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:00,931 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:00,932 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:07,575 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:07,576 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:07,578 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:07,579 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:21,043 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:21,044 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:33:21,045 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:33:21,046 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:34:34,102 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:34:34,103 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:34:34,105 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:34:34,105 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:35:51,060 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:35:51,061 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:35:51,064 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:35:51,064 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:48,884 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:48,885 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:48,886 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:48,887 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:55,266 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:55,267 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:55,268 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:55,268 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:58,405 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:58,406 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:36:58,407 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:36:58,408 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:11,839 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:11,839 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:11,841 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:11,841 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:26,282 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:26,283 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:26,284 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:26,285 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:34,889 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:34,890 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:38:34,891 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:38:34,892 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:39:23,875 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:39:23,876 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:39:23,877 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:39:23,878 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:40:01,530 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:40:01,531 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:40:01,532 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:40:01,533 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:41:15,684 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:41:15,685 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:41:15,687 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:41:15,687 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:49:26,970 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:49:26,971 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:49:26,972 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:49:26,972 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:50:30,891 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:50:30,892 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:50:30,893 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:50:30,894 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:50:36,897 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:50:36,897 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 10:50:36,899 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 10:50:36,900 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:08,464 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:08,464 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:08,464 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:08,464 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:14,872 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:14,872 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:14,872 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:14,872 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:35,231 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:35,231 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:02:35,231 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:02:35,231 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:06:04,496 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:06:04,496 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 11:06:04,496 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 11:06:04,496 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:46:39,105 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-24 21:47:01,747 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:47:01,757 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:47:01,762 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:47:01,763 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:54:43,179 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:54:43,194 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:54:43,199 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:54:43,199 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:54:45,509 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:54:45,512 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:54:45,515 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:54:45,516 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:56:00,488 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:56:00,491 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:56:00,494 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:56:00,495 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:56:25,631 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:56:25,632 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:56:25,634 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:56:25,634 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:57:08,341 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:57:08,343 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:57:08,345 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:57:08,345 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:59:36,535 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:59:36,536 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 21:59:36,537 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 21:59:36,538 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:03:30,147 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:03:30,148 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:03:30,152 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:03:30,153 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:03:33,110 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:03:33,111 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:03:33,113 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:03:33,114 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:40:55,699 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:40:55,702 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 22:40:55,706 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 22:40:55,707 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:42:32,927 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:42:32,931 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:42:32,933 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:42:32,933 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:42:37,341 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:42:37,342 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:42:37,344 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:42:37,345 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:43:37,278 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:43:37,279 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:43:37,282 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:43:37,282 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:43:48,342 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:43:48,344 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:43:48,345 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:43:48,346 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:45:51,593 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:45:51,594 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:45:51,596 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:45:51,597 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:46:40,770 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:46:40,771 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:46:40,773 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:46:40,774 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:52:50,429 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:52:50,429 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:52:50,431 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:52:50,432 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:54:28,533 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:54:28,534 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:54:28,538 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:54:28,538 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:58:41,334 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:58:41,335 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:58:41,337 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:58:41,337 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:59:39,990 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:59:39,991 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-24 23:59:39,992 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-24 23:59:39,993 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 00:01:32,141 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 00:01:32,142 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 00:01:32,143 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 00:01:32,144 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:43:43,172 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-25 07:44:13,080 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:44:13,093 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:44:13,104 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:44:13,111 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:45:51,563 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:45:51,571 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:45:51,575 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:45:51,575 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:45:56,673 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:45:56,673 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:45:56,673 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:45:56,673 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:37,051 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:37,051 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:37,064 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:37,064 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:42,813 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:42,814 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:42,815 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:42,817 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:57,484 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:57,484 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 07:59:57,484 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 07:59:57,484 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:00:03,931 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:00:03,931 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:00:03,931 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:00:03,935 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:00:08,663 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:00:08,664 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:00:08,667 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:00:08,671 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:02:13,894 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:02:13,894 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:02:13,895 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:02:13,895 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:02:15,971 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:02:15,973 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:02:15,975 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:02:15,976 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:05:04,344 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:05:04,346 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:05:04,347 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:05:04,349 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:06:18,588 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:06:18,589 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:06:18,591 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:06:18,592 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:06:26,920 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:06:26,923 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:06:26,926 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:06:26,926 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:27,254 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:27,255 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:27,258 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:27,258 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:36,688 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:36,688 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:36,690 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:36,691 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:38,890 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:38,890 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:07:38,894 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:07:38,894 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:05,136 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:05,140 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:05,142 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:05,142 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:44,878 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:44,878 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:44,880 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:44,881 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:57,473 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:57,473 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:08:57,475 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:08:57,475 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:09:43,494 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:09:43,495 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:09:43,497 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:09:43,497 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:09:59,353 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:09:59,353 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:09:59,353 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:09:59,353 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:12:10,962 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:12:10,963 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:12:10,965 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:12:10,965 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:20:21,068 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:20:21,072 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:20:21,074 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:20:21,074 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:20:34,975 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:20:34,976 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:20:34,979 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:20:34,979 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:26:30,503 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:26:30,505 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:26:30,506 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:26:30,507 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:28:41,875 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:28:41,875 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:28:41,875 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:28:41,875 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:28:59,186 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:28:59,186 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:28:59,188 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:28:59,188 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:01,273 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:01,273 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:01,275 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:01,275 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:34,861 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:34,861 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:34,861 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:34,864 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:40,534 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:40,534 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:40,534 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:40,534 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:56,002 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:56,003 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:29:56,004 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:29:56,005 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:31:25,610 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:31:25,610 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:31:25,615 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:31:25,617 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:31:47,513 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:31:47,514 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:31:47,515 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:31:47,515 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:32:07,021 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:32:07,022 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:32:07,023 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:32:07,024 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:33:11,489 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:33:11,489 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:33:11,489 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:33:11,492 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:33:25,355 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:33:25,356 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:33:25,357 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:33:25,357 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:08,766 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:08,768 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:08,768 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:08,771 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:45,447 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:45,449 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:45,450 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:45,450 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:58,410 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:58,410 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:34:58,413 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:34:58,414 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:38,515 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:38,516 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:38,517 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:38,517 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:40,759 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:40,759 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:40,763 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:40,763 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:43,838 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:43,839 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:35:43,841 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:35:43,841 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:36:29,366 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:36:29,367 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:36:29,368 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:36:29,369 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:36:33,860 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:36:33,861 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:36:33,861 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:36:33,863 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:41:45,231 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:41:45,232 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:41:45,234 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:41:45,234 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:51:12,257 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:51:12,258 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:51:12,260 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:51:12,261 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:54:03,387 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:54:03,388 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:54:03,389 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:54:03,390 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:54:41,843 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:54:41,843 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:54:41,848 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:54:41,848 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:16,469 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:16,470 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:16,471 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:16,472 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:39,490 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:39,491 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:39,492 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:39,492 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:42,713 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:42,716 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:56:42,717 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:56:42,718 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:58:25,709 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:58:25,710 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 08:58:25,712 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 08:58:25,712 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:01:17,322 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:01:17,322 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:01:17,322 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:01:17,322 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:02:31,302 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:02:31,302 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:02:31,304 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:02:31,305 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:19,851 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:19,851 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:19,852 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:19,852 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:31,438 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:31,439 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:31,440 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:31,441 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:50,294 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:50,294 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:05:50,294 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:05:50,294 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:06:08,618 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:06:08,618 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:06:08,620 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:06:08,621 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:07:57,082 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:07:57,084 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:07:57,085 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:07:57,085 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:08:39,139 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:08:39,139 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:08:39,141 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:08:39,142 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:10:28,301 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:10:28,302 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:10:28,302 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:10:28,302 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:11:24,775 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:11:24,775 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:11:24,781 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:11:24,782 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:12:45,742 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:12:45,744 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:12:45,746 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:12:45,748 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:12:56,703 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:12:56,704 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:12:56,706 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:12:56,707 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:16:05,625 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:16:05,625 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:16:05,625 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:16:05,625 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:09,329 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:09,331 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:09,332 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:09,333 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:43,602 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:43,602 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:43,602 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:43,602 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:55,464 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:55,465 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:20:55,466 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:20:55,467 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:23:02,777 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:23:02,777 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:23:02,778 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:23:02,779 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:24:53,978 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:24:53,979 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:24:53,980 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:24:53,981 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:28:58,117 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:28:58,118 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:28:58,119 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:28:58,120 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:34:52,751 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:34:52,753 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:34:52,754 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:34:52,754 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:35:30,470 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:35:30,471 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:35:30,472 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:35:30,473 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:35:32,555 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:35:32,555 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:35:32,555 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:35:32,571 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:40:03,437 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:40:03,438 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:40:03,439 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:40:03,440 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:41:27,465 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:41:27,466 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:41:27,467 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:41:27,468 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:43:07,200 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:43:07,201 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:43:07,202 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:43:07,203 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:45:10,285 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:45:10,286 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:45:10,287 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:45:10,288 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:46:36,029 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:46:36,029 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:46:36,029 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:46:36,029 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:49:50,597 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:49:50,597 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:49:50,597 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:49:50,597 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:54:51,288 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:54:51,289 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:54:51,289 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:54:51,290 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:57:22,958 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:57:22,959 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:57:22,961 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:57:22,961 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:58:37,349 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:58:37,350 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 09:58:37,352 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 09:58:37,353 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:00:42,965 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:00:42,966 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:00:42,968 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:00:42,968 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:09:27,346 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:09:27,347 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:09:27,348 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:09:27,349 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:10:59,500 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:10:59,501 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:10:59,503 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:10:59,503 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:13:07,464 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:13:07,466 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:13:07,468 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:13:07,470 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:15:07,587 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:15:07,588 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:15:07,589 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:15:07,590 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:19:53,568 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:19:53,569 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:19:53,570 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:19:53,571 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:21:27,605 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:21:27,605 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:21:27,605 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:21:27,605 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:21:49,541 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:21:49,541 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:21:49,541 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:21:49,541 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:27:19,023 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:27:19,024 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:27:19,025 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:27:19,026 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:30:17,364 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:30:17,367 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:30:17,370 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:30:17,371 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:30:36,375 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:30:36,377 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:30:36,378 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:30:36,379 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:37:24,630 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:37:24,631 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:37:24,632 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:37:24,632 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:37:31,063 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:37:31,063 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 10:37:31,065 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 10:37:31,066 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:10:24,532 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:10:24,533 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:10:24,535 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:10:24,535 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:12:21,757 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:12:21,758 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:12:21,759 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:12:21,760 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:11,658 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:11,659 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:11,661 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:11,661 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:20,797 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:20,798 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:20,800 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:20,800 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:31,753 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:31,753 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:31,754 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:31,755 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:53,178 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:53,179 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:17:53,180 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:17:53,180 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:18:08,194 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:18:08,195 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:18:08,196 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:18:08,197 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:18:46,352 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:18:46,353 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:18:46,355 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:18:46,355 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:19:19,873 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:19:19,874 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:19:19,875 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:19:19,875 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:21:34,685 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:21:34,686 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:21:34,687 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:21:34,688 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:26:09,250 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:26:09,251 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:26:09,252 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:26:09,253 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:30:54,836 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:30:54,837 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:30:54,838 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:30:54,839 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:33:35,586 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:33:35,587 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:33:35,589 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:33:35,589 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:03,452 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:03,452 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:03,454 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:03,454 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:07,284 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:07,285 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:07,286 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:07,287 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:25,486 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:25,487 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:25,489 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:25,489 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:41,687 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:41,687 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:35:41,689 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:35:41,689 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:37:39,367 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:37:39,368 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:37:39,369 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:37:39,370 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:44:07,486 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:44:07,486 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:44:07,487 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:44:07,487 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:46:12,253 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:46:12,254 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:46:12,256 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:46:12,257 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:46:37,341 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:46:37,342 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:46:37,343 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:46:37,344 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:50:40,417 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:50:40,418 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:50:40,419 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:50:40,419 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:50:50,371 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:50:50,371 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-25 11:50:50,372 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-25 11:50:50,373 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

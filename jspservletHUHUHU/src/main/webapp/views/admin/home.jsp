@@ -38,7 +38,7 @@
                                                 <div class="col-sm-6">
                                                     <div>
                                                         <label for="name"> Tên Toà Nhà </label>
-                                                        <input type="text" id="name" name="name" class="form-control" />
+                                                        <input type="text" id="name" name="name" value="${model.name}" class="form-control" />
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
@@ -51,10 +51,9 @@
                                                     <label for="">Quận Huyện</label>
                                                     <select class="form-control" id="district" name="district">
 														<option value="">--Chọn Quận Huyện--</option>
-														<option value="QUAN_1">Quận 1</option>
-														<option value="QUAN_2">Quận 2</option>
-														<option value="QUAN_3">QUận 3</option>
-														<option value="QUAN_4">QUận 4</option>
+														<c:forEach items="${mapdistrict}" var="item">
+															<option value="${item.key}" ${item.key eq model.district ?'selected':''}>${item.value}</option>
+														</c:forEach>
 													</select>
                                                 </div>
                                                 <div class="col-sm-4">
@@ -114,23 +113,18 @@
                                                     <div class="control-group">
                                                         <label class="control-label bolder blue">Loại toà nhà</label>
                                                         <div class="checkbox" >
-                                                            <label>
-																<input name="buildingTypes" value="TANG_TRET" type="checkbox" class="ace">
-																<span class="lbl">Tầng Trệt</span>
+                                                        <c:forEach items="${mapbuildingtype}" var="item">
+                                                        	 <label>
+																<input name="buildingTypes" value="${item.key}" class="ace"
+																type="checkbox" ${fn:contains(fn:join(model.buildingTypes,','),item.key) ?'checked':''}  >
+																<span class="lbl">${item.value}</span>
 															</label>
-		                                                            <label>
-																<input name="buildingTypes" value="NGUYEN_CAN" type="checkbox" class="ace">
-																<span class="lbl">Nguyên Căn</span>
-															</label>
-		                                                            <label>
-																<input name="buildingTypes" value="NOI_THAT" type="checkbox" class="ace">
-																<span class="lbl">Nội Thất</span>
-															</label>
+                                                        </c:forEach>                                
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12">
-                                                    <div class="pull-left" data-toggle="tooltip" title="Thêm Toà Nhà">
+                                                    <div class="pull-left"  title="Thêm Toà Nhà">
                                                         <button id="btnSearchBuilding" type="submit" class="btn btn-sucess btn-info btn-bold" >
 											           	Tìm Kiếm
 											           </button>
@@ -191,7 +185,7 @@
                                                 <div class="hidden-sm hidden-xs btn-group">
                                                     <button class="btn btn-xs btn-success"
                                                      title="giao toà nhà"                                                   
-                                                     onclick="Assignmentbuilding(2)"
+                                                     onclick="Assignmentbuilding(${item.id})"
                                                       >
 																<i class="ace-icon fa fa-check bigger-120"></i>
 													</button>
@@ -233,7 +227,7 @@
         		<tr>Tên nhan vien</tr>
         	</thead>
         	<tbody>
-        		<tr>
+        		<!-- tr>
         			<td><input type="checkbox" value="1" id="checkbox_1" checked ></td>
         			<td>Nguyễn văn a</td>
         		</tr>
@@ -244,7 +238,7 @@
         		<tr>
         			<td><input type="checkbox" value="3" id="checkbox_3" checked ></td>
         			<td>Nguyễn văn c</td>
-        		</tr>
+        		</tr-->
         	</tbody>
         </table>      
  	 	<input type="hidden" value="" name="buildingid" id="buildingid"/>

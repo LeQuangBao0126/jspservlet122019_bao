@@ -1,0 +1,7 @@
+package service;
+
+public interface IAssignmentBuildingService {
+	long[] getStaffIdByBuildingid(Long id);
+	//
+	void insertStaffByBuildingid(Long staffid,Long buildingid);
+}

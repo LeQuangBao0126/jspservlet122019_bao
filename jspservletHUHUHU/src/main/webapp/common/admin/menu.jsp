@@ -35,35 +35,16 @@
     </div>
     <ul class="nav nav-list">
         <li >
-            <a href="admin-home" class="dropdown-toggle">
+            <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-list"></i>
                 <span class="menu-text"></span>
-                Quản lý toà nhà
+                Quản lý bài viết
                 <b class="arrow fa fa-angle-down"></b>
             </a>
             <b class="arrow"></b>
             <ul class="submenu">
                 <li>
-                    <a href="admin-home">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        DS toà nhà
-                    </a>
-                    <b class="arrow"></b>
-                </li>
-            </ul>
-        </li>
-        <!--  -->
-           <li >
-            <a href="admin-home" class="dropdown-toggle">
-                <i class="menu-icon fa fa-list"></i>
-                <span class="menu-text"></span>
-                Quản lý nhân viên
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
-            <b class="arrow"></b>
-            <ul class="submenu">
-                <li>
-                    <a href='<c:url value=""/>'>
+                    <a href='<c:url value="/admin-new?type=list&page=1&maxPageItem=2&sortName=title&sortBy=desc"/>'>
                         <i class="menu-icon fa fa-caret-right"></i>
                         DS bài viết
                     </a>

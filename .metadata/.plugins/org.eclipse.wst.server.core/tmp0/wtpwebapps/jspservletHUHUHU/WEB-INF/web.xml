@@ -52,4 +52,14 @@
     <servlet-name>BuildingController</servlet-name>
     <url-pattern>/BuildingController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>WebController</display-name>
+    <servlet-name>WebController</servlet-name>
+    <servlet-class>controller.WebController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WebController</servlet-name>
+    <url-pattern>/WebController</url-pattern>
+  </servlet-mapping>
 </web-app>

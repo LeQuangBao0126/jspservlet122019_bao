@@ -66,20 +66,21 @@ public class BuildingAPI extends HttpServlet {
 		buildingDto = buildingService.save(buildingDto);		
 		objectMapper.writeValue(response.getOutputStream(), buildingDto);
 	}
-	
+	//hàm này còn sai ...
 	@Override
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ObjectMapper objectMapper = new ObjectMapper();
 		request.setCharacterEncoding("UTF-8");
 		BuildingDTO buildingDto = HttpUtil.of(request.getReader()).toModel(BuildingDTO.class);
-		BuildingDTO resultDTO = buildingService.update(buildingDto);
-		objectMapper.writeValue(response.getOutputStream(), resultDTO);
+		 buildingService.update(buildingDto);
+		 //request lai trang chủ admin
+		 objectMapper.writeValue(response.getOutputStream(), buildingDto);
 	}
+	
 	@Override
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ObjectMapper objectMapper = new ObjectMapper();
-		ArrayIdDelete buildingIds = objectMapper.readValue(request.getReader(),ArrayIdDelete.class);	
-		//lấy dc mảng building id từ client rồi nhưng chưa xoá đc ..do nó có quan hệ vs assignment buidling 
-		//buildingService.delete(buildingIds.getBuildingIds());
+		ArrayIdDelete buildingIds = objectMapper.readValue(request.getReader(),ArrayIdDelete.class);	 
+		buildingService.delete(buildingIds.getBuildingIds());
 	}
 }

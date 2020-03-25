@@ -2,7 +2,7 @@ package api.input;
 
 public class AssignmentBuildingInput {
 		private Long buildingId;
-		private Long[] staffIds;
+		private Long[] staffIds = new Long[] {};
 		
 		public Long getBuildingId() {
 			return buildingId;

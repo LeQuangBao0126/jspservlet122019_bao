@@ -1,7 +1,7 @@
 package api.input;
 
 public class ArrayIdDelete {
-	private Long[] buildingIds;
+	private Long[] buildingIds = new Long[] {};
 
 	public Long[] getBuildingIds() {
 		return buildingIds;

@@ -17,19 +17,19 @@ public class AssignmentBuildingEntity {
 	@Column(name = "buildingid")
 	private Long buildingId;
 	
-	@Column(name = "id")
+	@Column(name = "staffid")
 	private Long staffId;
 	
-	@Column(name = "id")
+	@Column(name = "createddate")
 	private Date createdDate;
 	
-	@Column(name = "id")
+	@Column(name = "modifiededdate")
 	private Date modifiededDate;
 	
-	@Column(name = "id")
+	@Column(name = "createdby")
 	private String createdBy;
 	
-	@Column(name = "id")
+	@Column(name = "modifiededby")
 	private String modifiededBy;
 	public Long getId() {
 		return id;

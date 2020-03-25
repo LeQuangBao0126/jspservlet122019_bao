@@ -102,10 +102,8 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		Connection connection = EntityManagerFactory.getConnection();
 		Statement statement = null;
 		ResultSet resultset = null;
-
 		if (connection != null) {
 			try {
-
 				StringBuilder builder = new StringBuilder(sql);
 				if (where != null && where.length == 1) {
 					builder.append(where[0]);
@@ -234,7 +232,7 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 	}
 
 	@Override
-	public Long update(Object objectUpdate) {
+	public void update(Object objectUpdate) {
 		String sqlUpdate = createSQLupdate(objectUpdate);
 		Connection connection = null;
 		PreparedStatement statement = null;
@@ -243,35 +241,22 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			connection = EntityManagerFactory.getConnection();
 			connection.setAutoCommit(false);
 			statement = connection.prepareStatement(sqlUpdate);
-
 			Class<?> aClass = objectUpdate.getClass();
 			int i = 1;
-			for (Field field : aClass.getDeclaredFields()) {
-				field.setAccessible(true);
-				if (field.getName().equals("id")) {
-					statement.setLong((aClass.getDeclaredFields().length) - 4, (Long) field.get(objectUpdate));
-				}else				
-				if (!field.getName().startsWith("createdDate") || !field.getName().startsWith("modifiededDate")
-						|| !field.getName().startsWith("createdBy") || !field.getName().startsWith("modifiededBy")) {				
-					statement.setObject(i, field.get(objectUpdate));
-					
-					i++;
+			for (Field field : aClass.getDeclaredFields()) {				
+				field.setAccessible(true);		
+				if(field.get(objectUpdate) != null) {
+					//4 field này ở ngoài set vo rồi
+					if (!field.getName().startsWith("createdDate") || !field.getName().startsWith("modifiededDate")
+							|| !field.getName().startsWith("createdBy") || !field.getName().startsWith("modifiededBy")) {			
+						statement.setObject(i, field.get(objectUpdate));				
+						i++;
+					}   
 				}
-           //25 dấu ? mà có tới 26 lần set
+				     
 			}
-			int affectedRows = statement.executeUpdate(sqlUpdate);
-			connection.commit();
-			if (affectedRows == 0) {
-				throw new SQLException("Creating user failed, no rows affected.");
-			} else {
-				resultSet = statement.getGeneratedKeys();
-				connection.commit();
-				if (resultSet.next()) {
-					Long id = resultSet.getLong(1);
-					return id;
-				}
-			}
-
+			 statement.executeUpdate(sqlUpdate);
+			connection.commit();		
 		} catch (SQLException | IllegalAccessException e) {
 			System.out.println(e.getMessage());
 			if (connection != null) {
@@ -281,10 +266,8 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 					System.out.println(e1.getMessage());
 					e1.printStackTrace();
 				}
-			}
-			return -1L;
-		}
-		return -1L;
+			}	
+		}		
 	}
 
 //IllegalAccessException

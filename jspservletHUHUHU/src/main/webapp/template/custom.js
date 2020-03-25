@@ -28,6 +28,7 @@ $("#btnThemToaNha").click(function(e) {
                 title: 'Thêm toà nhà thành công',
                 timer: 1000
             })
+
             console.log(response);
         },
         error: function(response) {
@@ -37,10 +38,34 @@ $("#btnThemToaNha").click(function(e) {
     });
 });
 
-//Giao toà nhà cho nhan viên
+//Giao toà nhà cho nhan viên// api show staff 
+function showStaffAssignment() {
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8080/api-user?action=LOAD_STAFF&rolecode=STAFF",
+        dataType: "json",
+        success: function(users) {
+            console.log(users);
+            var html = '';
+            for (var i = 0; i < users.length; i++) {
+                html += `<tr>
+                <td><input type="checkbox" value="${users[i].id}" id="checkbox_${users[i].id}"  ></td>
+                <td>${users[i].fullName}</td>
+                </tr>`;
+            }
+
+            $("#staffList tbody").html(html);
+        },
+        error: function() {
+
+        }
+    });
+}
+
 function Assignmentbuilding(buildingid) {
     $("#assignmentbuildingmodal").modal();
     $("#buildingid").val(buildingid);
+    showStaffAssignment();
 }
 $("#btnAssignBuilding").click(function(e) {
     e.preventDefault();
@@ -96,9 +121,3 @@ $("#btnDeleteBuildings").click(function(e) {
     });
 
 });
-
-// searchbuidling
-/*$("#btnSearchBuilding").click(function(e) {
-    e.preventDefault();
-    alert("asd");
-});*/

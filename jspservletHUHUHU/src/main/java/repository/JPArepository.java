@@ -9,7 +9,7 @@ public interface JPArepository<T> {
 	Long insert(Object object);
 	//
 	//T findById(Long id);
-	Long update(Object objectUpdate);
+	void update(Object objectUpdate);
 	//
 	void delete(Long id);
  }

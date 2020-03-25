@@ -19,18 +19,20 @@ public class UserService implements IUserService {
 	     List<UserDTO> listDto = new ArrayList<>();
 	       for(UserEntity item : resultentity) {
 	    	   UserDTO dto = userConverter.convertEntityToDTO(item);
+	    	  
 	    	   listDto.add(dto);
 	       }
 		return listDto;
 	}
-	@Override
+	
 	public boolean checkUserAssignment(Long userId,Long buildingId) {
 		//tìm xem nhan vien có đang quản lý toà nhà ko. findByIdAndBuildingId
-		UserDTO userDTO  =userConverter.convertEntityToDTO(userRepository.findByIdAndBuildingId(userId, buildingId));
-		if(userDTO == null) {
-			return false;
-		}else {
+		UserDTO userDTO = null;
+		userDTO  = userConverter.convertEntityToDTO(userRepository.findByIdAndBuildingId(userId,buildingId));
+		if(userDTO != null) {
 			return true;
+		}else {
+			return false;
 		}
 	}
 

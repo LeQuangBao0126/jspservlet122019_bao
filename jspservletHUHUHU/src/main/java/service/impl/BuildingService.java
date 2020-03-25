@@ -3,6 +3,7 @@ package service.impl;
 import java.lang.reflect.Field;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -82,6 +83,8 @@ public class BuildingService implements IBuildingService {
 				 sbbuildingtype.append(item);
 			 }
 		 }
+		 entity.setCreatedDate(new Timestamp(System.currentTimeMillis()));
+		 entity.setCreatedBy("admin");
 		 entity.setType(sbbuildingtype.toString());
 		 String rentAreas = dto.getRentAreas();
 		
@@ -111,20 +114,19 @@ public class BuildingService implements IBuildingService {
 		return result;
 	}
 	@Override
-	public BuildingDTO update(BuildingDTO updateDto) {
+	public void update(BuildingDTO updateDto) {
 		BuildingDTO Oldbuildingdto = buildingConverter.convertEntityToDTO(buildingRepository.findById(updateDto.getId()));
 		updateDto.setCreatedDate(Oldbuildingdto.getCreatedDate());
 		updateDto.setCreatedBy(Oldbuildingdto.getCreatedBy());
 		updateDto.setModifiededDate(new Timestamp(System.currentTimeMillis()));
-		//updateDto.setModifiedBy();
-		Long id = buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));
-		
-		BuildingDTO resultdto =buildingConverter.convertEntityToDTO(buildingRepository.findById(id)) ;
-		return resultdto;
+		updateDto.setModifiededBy("tao ne kaka");
+		 buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));		
 	}
 	@Override
 	public void delete(Long[] ids) {
+		//đang loop theo mảng building id
 		for(Long id : ids) {
+			//find trong bảng assginbuilding , rentarea ..có thì thuc hien hàm xoá theo id building
 			buildingRepository.delete(id);
 		}
 	}

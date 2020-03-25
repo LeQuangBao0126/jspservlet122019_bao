@@ -13,10 +13,11 @@ public interface IBuildingService {
 	//
 	List<BuildingTypeOutput> getBuildingType();
 	//
-	BuildingDTO update(BuildingDTO dto);
+	void update(BuildingDTO dto);
 	//
 	void delete(Long[] ids);
 	//
 	List<BuildingDTO> getAll();
+	//
 	
 }

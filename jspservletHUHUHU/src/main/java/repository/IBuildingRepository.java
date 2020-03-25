@@ -10,7 +10,7 @@ public interface IBuildingRepository extends JPArepository<BuildingEntity> {
 		Long insert(BuildingEntity entity);
 		List<BuildingEntity> findAll(Map<String,Object> params,BuildingSearchBuilder builder);
 		BuildingEntity findById(Long buildingId);
-		Long update(BuildingEntity entity);
+		void update(BuildingEntity entity);
 		void delete(Long id );
 		List<BuildingEntity> getListBuilding();
 }

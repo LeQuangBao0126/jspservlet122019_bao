@@ -1,0 +1,40 @@
+package service.impl;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import converter.AssignmentBuildingConverter;
+import dto.AssignmentBuildingDTO;
+import entity.AssignmentBuildingEntity;
+import repository.IAssignmentBuildingRepository;
+import repository.impl.AssignmentBuildingRepository;
+import service.IAssignmentBuildingService;
+
+public class AssignmentBuildingService implements IAssignmentBuildingService {
+	private IAssignmentBuildingRepository abrepository = new AssignmentBuildingRepository();
+	private AssignmentBuildingConverter converter = new AssignmentBuildingConverter();
+	@Override
+	public long[] getStaffIdByBuildingid(Long id) {
+	    List<AssignmentBuildingEntity> entity = abrepository.findByBuildingid(id);
+	    List<AssignmentBuildingDTO> listdto = entity.stream()
+	    		.map(item->converter.convertEntityToDTO(item))
+	    		.collect(Collectors.toList());
+	    long[] staffIds = new long[listdto.size()];
+	    int index = 0;
+	   for(AssignmentBuildingDTO item : listdto) {
+		   staffIds[index] =item.getStaffId();
+		   index++;
+	   }
+		return staffIds ;
+	}
+	@Override
+	public void insertStaffByBuildingid(Long staffid, Long buildingid) {
+		AssignmentBuildingDTO assignmentdto = new AssignmentBuildingDTO();
+		assignmentdto.setbuildingId(buildingid);
+		assignmentdto.setStaffId(staffid);
+		 AssignmentBuildingEntity assignmententity = converter.convertDTOToEntity(assignmentdto);
+	}
+	
+	
+
+}

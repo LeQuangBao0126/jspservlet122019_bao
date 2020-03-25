@@ -79,8 +79,8 @@ public class BuildingRepository extends SimpleJPArepository<BuildingEntity> impl
 	}
 
 	@Override
-	public Long update(BuildingEntity entity) {
-		return super.update(entity);
+	public void update(BuildingEntity entity) {
+		super.update(entity);
 	}
 
 	@Override
