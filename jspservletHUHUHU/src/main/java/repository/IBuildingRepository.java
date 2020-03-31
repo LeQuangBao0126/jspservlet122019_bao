@@ -13,4 +13,6 @@ public interface IBuildingRepository extends JPArepository<BuildingEntity> {
 		void update(BuildingEntity entity);
 		void delete(Long id );
 		List<BuildingEntity> getListBuilding();
+		//delete các field trong bảng lien quan
+		void deleteWithTransaction(Long[] ids);
 }

@@ -17,8 +17,10 @@ import converter.BuildingConverter;
 import dto.BuildingDTO;
 import entity.BuildingEntity;
 import enums.BuildingTypeEnum;
+import repository.IAssignmentBuildingRepository;
 import repository.IBuildingRepository;
 import repository.IRentAreaRepository;
+import repository.impl.AssignmentBuildingRepository;
 import repository.impl.BuildingRepository;
 import repository.impl.RentAreaRepository;
 import service.IBuildingService;
@@ -28,6 +30,7 @@ public class BuildingService implements IBuildingService {
 	private IBuildingRepository buildingRepository = new BuildingRepository();
 	private BuildingConverter buildingConverter = new BuildingConverter();
 	private IRentAreaRepository rentAreaRepository = new RentAreaRepository();
+	private IAssignmentBuildingRepository abrepository = new AssignmentBuildingRepository();
 	
 	@Override
 	public List<BuildingDTO> findAll(BuildingSearchBuilder builder) {
@@ -124,11 +127,12 @@ public class BuildingService implements IBuildingService {
 	}
 	@Override
 	public void delete(Long[] ids) {
-		//đang loop theo mảng building id
-		for(Long id : ids) {
-			//find trong bảng assginbuilding , rentarea ..có thì thuc hien hàm xoá theo id building
+		/*for(Long id : ids) {		
+			rentAreaRepository.deleteByBuildingId(id);			
+			abrepository.deleteAssignmentByBuildingId(id);
 			buildingRepository.delete(id);
-		}
+		}*/
+		buildingRepository.deleteWithTransaction(ids);
 	}
 	@Override
 	public List<BuildingDTO> getAll() {

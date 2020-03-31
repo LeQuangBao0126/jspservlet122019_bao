@@ -1,7 +1,0 @@
-function Assignmentbuilding() {
-    $("#assignmentbuildingmodal").modal();
-}
-// them toa nhà
-$("#btnThemToaNha").click(function(e) {
-    alert("aaaa");
-});

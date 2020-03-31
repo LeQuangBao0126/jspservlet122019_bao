@@ -322,4 +322,38 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		}
 	}
 
+	@Override
+	public void deleteByProperty(String where) {
+		String tableName = "";
+		if(zClass.isAnnotationPresent(Table.class)) {
+			tableName = zClass.getAnnotation(Table.class).name();
+		}
+		String sql = "delete from "+tableName +" where 1=1 "+ where;
+		Connection connection = EntityManagerFactory.getConnection();
+		Statement statement =null;
+		try {
+			connection.setAutoCommit(false);
+			statement = connection.createStatement();
+			statement.executeUpdate(sql);
+			if(connection!= null) {
+				connection.commit();
+			}
+		} catch (SQLException e) {
+			try {
+				connection.rollback();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+			System.out.println(e.getMessage());
+		} finally {
+			try {
+				connection.close();
+				statement.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
 }

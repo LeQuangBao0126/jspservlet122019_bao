@@ -15,4 +15,10 @@ public class RentAreaRepository extends SimpleJPArepository<RentAreaEntity> impl
 		this.insert(rd);
 	}
 
+	@Override
+	public void deleteByBuildingId(Long buildingId) {
+		String where = " and buildingid = "+buildingId+" ";
+		this.deleteByProperty(where);
+	}
+
 }

@@ -1,8 +1,0 @@
-package api.input;
-
-public class StaffInput {
-	private Long staffId;
-	private String fullName;
-	private String checked;
-	
-}	

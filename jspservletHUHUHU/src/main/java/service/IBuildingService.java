@@ -20,4 +20,5 @@ public interface IBuildingService {
 	List<BuildingDTO> getAll();
 	//
 	
+	
 }

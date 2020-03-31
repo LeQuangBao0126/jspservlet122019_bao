@@ -103,6 +103,10 @@ $("#btnDeleteBuildings").click(function(e) {
     var buildingIds = $("#buildingList").find('tbody input[type=checkbox]:checked').map(function() {
         return $(this).val();
     }).get();
+    if (buildingIds.length < 1) {
+        alert("bạn chưa chọn toà nhà");
+        return 0;
+    }
     data['buildingIds'] = buildingIds;
 
     //call api xoá nhiều toà nhà
@@ -116,8 +120,11 @@ $("#btnDeleteBuildings").click(function(e) {
             console.log("sucess");
         },
         error: function(response) {
-            console.log("fail");
+            console.log("fail");          
         }
     });
-
+    var i;
+    for (i = 0; i < buildingIds.length; i++) {
+        document.getElementById(`tr_${buildingIds[i]}`).remove();  
+    }
 });

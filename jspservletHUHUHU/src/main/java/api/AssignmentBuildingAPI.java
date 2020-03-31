@@ -51,9 +51,8 @@ public class AssignmentBuildingAPI extends HttpServlet {
 					  if(item != arrStaffInDatabase[j]) {
 						  abservice.insertStaffByBuildingid(item, buildingId);
 					  }else {
-						 
-					  }
-					  
+						  
+					  }					  
 				  }			
 			  }
 			  for(Long id :arrStaffInDatabase ) {

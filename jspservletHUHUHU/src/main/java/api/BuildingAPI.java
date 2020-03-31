@@ -82,5 +82,6 @@ public class BuildingAPI extends HttpServlet {
 		ObjectMapper objectMapper = new ObjectMapper();
 		ArrayIdDelete buildingIds = objectMapper.readValue(request.getReader(),ArrayIdDelete.class);	 
 		buildingService.delete(buildingIds.getBuildingIds());
+		
 	}
 }

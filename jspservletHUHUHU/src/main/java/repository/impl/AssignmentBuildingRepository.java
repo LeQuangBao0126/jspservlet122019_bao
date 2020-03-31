@@ -17,6 +17,12 @@ public class AssignmentBuildingRepository extends SimpleJPArepository<Assignment
 		super.insert(entity);
 	}
 
+	@Override
+	public void deleteAssignmentByBuildingId(Long buildingId) {
+		String where =" AND buildingid = "+buildingId+" ";
+		this.deleteByProperty(where);
+	}
+
 	
 
 	
