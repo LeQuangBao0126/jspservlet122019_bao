@@ -93,7 +93,9 @@ public class BuildingService implements IBuildingService {
 		 String rentAreas = dto.getRentAreas();
 		 String[] arr = rentAreas.split(",");
 		 //xử lý trích xuất từ chuỗi "100,200,300" thành 1 mảng rồi lặp..insert toà nhà truoc rồi mới insert rentarea
-		 Long id = buildingRepository.insert(entity); // có long rồi//them bên 1
+		 Long id = buildingRepository.insert(entity,arr); // có long rồi//them bên 1
+		 
+		 
 		 for(String rentArea : arr ) {
 			 if(id != -1) {
 				 rentAreaRepository.insert(rentArea,id);  //thêm bên n sau
@@ -104,6 +106,7 @@ public class BuildingService implements IBuildingService {
 		return	resultDTO;
 	}
 
+	
 	
 	@Override
 	public List<BuildingTypeOutput> getBuildingType() {

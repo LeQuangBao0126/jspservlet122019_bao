@@ -1,9 +1,0 @@
-package service;
-
-import java.util.List;
-
-import dto.AssignmentBuildingDTO;
-
-public interface IAssignmentBuildingService {
-	List<AssignmentBuildingDTO> findByBuildingid ; 
-}

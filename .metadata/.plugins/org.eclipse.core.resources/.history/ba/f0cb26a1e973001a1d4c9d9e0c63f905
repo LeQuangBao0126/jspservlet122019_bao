@@ -105,6 +105,7 @@ public class BuildingService implements IBuildingService {
 	}
 
 	
+	
 	@Override
 	public List<BuildingTypeOutput> getBuildingType() {
 		List<BuildingTypeOutput> result = new ArrayList<>();

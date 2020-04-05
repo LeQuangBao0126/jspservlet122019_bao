@@ -1,8 +1,6 @@
 package repository.impl;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
@@ -19,7 +17,8 @@ import repository.IBuildingRepository;
 public class BuildingRepository extends SimpleJPArepository<BuildingEntity> implements IBuildingRepository {
 
 	@Override
-	public Long insert(BuildingEntity entity) {
+	public Long insert(BuildingEntity entity,String[] rentAreas) {
+		connection
 		return super.insert(entity);
 	}
 

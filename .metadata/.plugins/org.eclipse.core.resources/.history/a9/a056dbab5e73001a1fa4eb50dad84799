@@ -89,21 +89,21 @@ public class BuildingService implements IBuildingService {
 		 entity.setCreatedDate(new Timestamp(System.currentTimeMillis()));
 		 entity.setCreatedBy("admin");
 		 entity.setType(sbbuildingtype.toString());
-		 
 		 String rentAreas = dto.getRentAreas();
+		
+		 //xử lý trích xuất từ chuỗi 100,200,300 thành 1 mảng rồi lặp..insert toà nhà truoc rồi mới insert rentarea
+		 Long id = buildingRepository.insert(entity); // có long rồi
 		 String[] arr = rentAreas.split(",");
-		 //xử lý trích xuất từ chuỗi "100,200,300" thành 1 mảng rồi lặp..insert toà nhà truoc rồi mới insert rentarea
-		 Long id = buildingRepository.insert(entity); // có long rồi//them bên 1
-		 for(String rentArea : arr ) {
-			 if(id != -1) {
-				 rentAreaRepository.insert(rentArea,id);  //thêm bên n sau
-			 }		 
-		 }
 		 
+		 for(String rentArea : arr ) {
+			 rentAreaRepository.insert(rentArea,id);
+		 }
+
 		BuildingDTO resultDTO =  buildingConverter.convertEntityToDTO(buildingRepository.findById(id)) ;			 
 		return	resultDTO;
 	}
 
+	
 	
 	@Override
 	public List<BuildingTypeOutput> getBuildingType() {

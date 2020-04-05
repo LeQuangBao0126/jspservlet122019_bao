@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
-<fullyQualifiedTypeName name="builder.BuildingSearchBuilder.Builder"/>
 <fullyQualifiedTypeName name="org.apache.commons.lang.StringUtils"/>
 <fullyQualifiedTypeName name="entity.BaseEntity"/>
 <fullyQualifiedTypeName name="dto.BaseDTO"/>
@@ -58,6 +56,8 @@
 <fullyQualifiedTypeName name="java.lang.Long"/>
 <fullyQualifiedTypeName name="repository.IAssignmentBuildingRepository"/>
 <fullyQualifiedTypeName name="repository.impl.AssignmentBuildingRepository"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="repository.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>

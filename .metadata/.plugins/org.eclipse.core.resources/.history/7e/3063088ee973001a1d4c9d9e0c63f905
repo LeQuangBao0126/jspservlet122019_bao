@@ -19,7 +19,20 @@ import repository.IBuildingRepository;
 public class BuildingRepository extends SimpleJPArepository<BuildingEntity> implements IBuildingRepository {
 
 	@Override
-	public Long insert(BuildingEntity entity) {
+	public Long insert(BuildingEntity entity,String[] rentAreas) {
+		Connection connection = EntityManagerFactory.getConnection();
+		PreparedStatement statement = null;
+		ResultSet resultSet = null;
+		try {
+			connection = EntityManagerFactory.getConnection();
+			connection.setAutoCommit(false);		
+			 Long buildingId = this.insert(entity);
+			
+			
+			
+		}catch(SQLException e) {
+			System.out.println(e.getMessage());
+		}
 		return super.insert(entity);
 	}
 
