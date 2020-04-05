@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.commons.lang.StringUtils"/>
-<fullyQualifiedTypeName name="entity.BaseEntity"/>
-<fullyQualifiedTypeName name="dto.BaseDTO"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
 <fullyQualifiedTypeName name="utils.HttpUtil"/>
@@ -20,9 +17,7 @@
 <fullyQualifiedTypeName name="service.impl.UserService"/>
 <fullyQualifiedTypeName name="service.IAssignmentBuilding"/>
 <fullyQualifiedTypeName name="repository.impl.SimpleJPArepository"/>
-<fullyQualifiedTypeName name="anotation.Entity"/>
 <fullyQualifiedTypeName name="anotation.Table"/>
-<fullyQualifiedTypeName name="anotation.Column"/>
 <fullyQualifiedTypeName name="converter.AssignmentBuildingConverter"/>
 <fullyQualifiedTypeName name="service.IAssignmentBuildingService"/>
 <fullyQualifiedTypeName name="service.impl.AssignmentBuildingService"/>
@@ -43,11 +38,9 @@
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.sql.Timestamp"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="dto.UserDTO"/>
-<fullyQualifiedTypeName name="entity.UserEntity"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="dto.AssignmentBuildingDTO"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="repository.EntityManagerFactory"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="anotation.Entity"/>
+<fullyQualifiedTypeName name="entity.UserEntity"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="entity.BaseEntity"/>
+<fullyQualifiedTypeName name="dto.BaseDTO"/>
+<fullyQualifiedTypeName name="anotation.Column"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

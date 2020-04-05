@@ -1,9 +1,6 @@
 package dto;
 
-import java.util.Date;
-
-public class BuildingDTO {
-	private Long id;
+public class BuildingDTO extends BaseDTO {
 	
 	private String name;
 	private String ward;
@@ -29,10 +26,6 @@ public class BuildingDTO {
 	private String timeDecorator;
 	private String managerName;
 	private String managerPhone;
-	private Date createdDate;
-	private Date modifiededDate;
-	private String createdBy;
-	private String modifiededBy;
 	
 	//phải có buildingtype thừ client truyền về là mảng...còn cái type là get từ entity trong db là chuỗi
 	private String[] buildingTypes = new String[] {};
@@ -188,36 +181,6 @@ public class BuildingDTO {
 	}
 	public void setManagerPhone(String managerPhone) {
 		this.managerPhone = managerPhone;
-	}
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Date getCreatedDate() {
-		return createdDate;
-	}
-	public void setCreatedDate(Date createdDate) {
-		this.createdDate = createdDate;
-	}
-	public Date getModifiededDate() {
-		return modifiededDate;
-	}
-	public void setModifiededDate(Date modifiededDate) {
-		this.modifiededDate = modifiededDate;
-	}
-	public String getCreatedBy() {
-		return createdBy;
-	}
-	public void setCreatedBy(String createdBy) {
-		this.createdBy = createdBy;
-	}
-	public String getModifiededBy() {
-		return modifiededBy;
-	}
-	public void setModifiededBy(String modifiededBy) {
-		this.modifiededBy = modifiededBy;
 	}
 	public String getRentAreas() {
 		return rentAreas;

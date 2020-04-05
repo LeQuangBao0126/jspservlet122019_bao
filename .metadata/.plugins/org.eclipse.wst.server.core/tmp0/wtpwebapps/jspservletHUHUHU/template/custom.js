@@ -1,5 +1,6 @@
 // them toa nhà
 $("#btnThemToaNha").click(function(e) {
+	
     e.preventDefault();
     // call api them toa nhà.
     var data = {};
@@ -97,7 +98,6 @@ $("#btnAssignBuilding").click(function(e) {
 
 //xoá toà nhà
 $("#btnDeleteBuildings").click(function(e) {
-
     e.preventDefault();
     var data = {};
     var buildingIds = $("#buildingList").find('tbody input[type=checkbox]:checked').map(function() {
@@ -108,23 +108,26 @@ $("#btnDeleteBuildings").click(function(e) {
         return 0;
     }
     data['buildingIds'] = buildingIds;
-
-    //call api xoá nhiều toà nhà
-    $.ajax({
-        type: "DELETE",
-        url: "http://localhost:8080/api-building",
-        data: JSON.stringify(data),
-        dataType: "json",
-        contentType: "application/json",
-        success: function(response) {
-            console.log("sucess");
-        },
-        error: function(response) {
-            console.log("fail");          
+    var thongbao = confirm("Bạn có chắc chắn muốn xoá ");
+    if (thongbao == true) {
+        //gọi ajax xoá toà nhà
+        $.ajax({
+            type: "DELETE",
+            url: "http://localhost:8080/api-building",
+            data: JSON.stringify(data),
+            dataType: "json",
+            contentType: "application/json",
+            success: function(response) {
+                console.log("sucess");
+            },
+            error: function(response) {
+                console.log("fail");
+            }
+        });
+        var i;
+        for (i = 0; i < buildingIds.length; i++) {
+            document.getElementById(`tr_${buildingIds[i]}`).remove();
         }
-    });
-    var i;
-    for (i = 0; i < buildingIds.length; i++) {
-        document.getElementById(`tr_${buildingIds[i]}`).remove();  
     }
+
 });

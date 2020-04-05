@@ -1,5 +1,6 @@
 // them toa nhà
 $("#btnThemToaNha").click(function(e) {
+	
     e.preventDefault();
     // call api them toa nhà.
     var data = {};
@@ -127,7 +128,6 @@ $("#btnDeleteBuildings").click(function(e) {
         for (i = 0; i < buildingIds.length; i++) {
             document.getElementById(`tr_${buildingIds[i]}`).remove();
         }
-        //$("#boxa > tr#asddasd").hide(1000)
     }
 
 });

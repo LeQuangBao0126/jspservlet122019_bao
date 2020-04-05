@@ -86,7 +86,7 @@ public class BuildingService implements IBuildingService {
 				 sbbuildingtype.append(item);
 			 }
 		 }
-		 entity.setCreatedDate(new Timestamp(System.currentTimeMillis()));
+		 entity.setCreatedDate(new Date());
 		 entity.setCreatedBy("admin");
 		 entity.setType(sbbuildingtype.toString());
 		 
@@ -121,8 +121,8 @@ public class BuildingService implements IBuildingService {
 		BuildingDTO Oldbuildingdto = buildingConverter.convertEntityToDTO(buildingRepository.findById(updateDto.getId()));
 		updateDto.setCreatedDate(Oldbuildingdto.getCreatedDate());
 		updateDto.setCreatedBy(Oldbuildingdto.getCreatedBy());
-		updateDto.setModifiededDate(new Timestamp(System.currentTimeMillis()));
-		updateDto.setModifiededBy("tao ne kaka");
+		updateDto.setModifiededDate(new Date());
+		updateDto.setModifiededBy("baobao");
 		 buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));		
 	}
 	@Override

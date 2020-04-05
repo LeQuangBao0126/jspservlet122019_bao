@@ -92,7 +92,6 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 				}
 			}
 		}
-		// nếu tất cả ko thoả thì vẫn return lại câu sql cũ
 		return sql;
 	}
 
@@ -210,7 +209,6 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			}
 		}
 		Class<?> parentClass = zClass.getSuperclass();
-
 		while (parentClass != null) {
 			// xử lý
 			for (Field field : parentClass.getDeclaredFields()) {
@@ -226,7 +224,6 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			}
 			parentClass = parentClass.getSuperclass();
 		}
-
 		String sql = "INSERT INTO " + tableName + "(" + fields.toString() + ") VALUES(" + params.toString() + ")";
 		return sql;
 	}
@@ -236,7 +233,7 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		String sqlUpdate = createSQLupdate(objectUpdate);
 		Connection connection = null;
 		PreparedStatement statement = null;
-		ResultSet resultSet = null;
+		
 		try {
 			connection = EntityManagerFactory.getConnection();
 			connection.setAutoCommit(false);
@@ -246,16 +243,27 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			for (Field field : aClass.getDeclaredFields()) {				
 				field.setAccessible(true);		
 				if(field.get(objectUpdate) != null) {
-					//4 field này ở ngoài set vo rồi
-					if (!field.getName().startsWith("createdDate") || !field.getName().startsWith("modifiededDate")
-							|| !field.getName().startsWith("createdBy") || !field.getName().startsWith("modifiededBy")) {			
-						statement.setObject(i, field.get(objectUpdate));				
-						i++;
-					}   
-				}
-				     
+					statement.setObject(i, field.get(objectUpdate));				
+					i++;
+				}	     
 			}
-			 statement.executeUpdate(sqlUpdate);
+			Class<?> parentClass = aClass.getSuperclass();
+			int parentIndex = aClass.getDeclaredFields().length + 1;
+			Object id = null;
+			while (parentClass != null) {
+				for (Field aField : parentClass.getDeclaredFields()) {
+					aField.setAccessible(true);
+					if(aField.getAnnotation(Column.class).name().equals("id")) {
+						id = aField.get(objectUpdate);
+						break;
+					}
+					statement.setObject(parentIndex, aField.get(objectUpdate));
+					parentIndex++;					
+				}
+				parentClass = parentClass.getSuperclass();
+			 }
+			statement.setObject(parentIndex, id);
+			statement.executeUpdate(sqlUpdate);
 			connection.commit();		
 		} catch (SQLException | IllegalAccessException e) {
 			System.out.println(e.getMessage());
@@ -270,7 +278,6 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		}		
 	}
 
-//IllegalAccessException
 	private String createSQLupdate(Object objupdate) {
 		String tableName = "";
 		StringBuilder sbFieldAndValues = new StringBuilder("");
@@ -281,19 +288,32 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		Class<?> aClass = objupdate.getClass();
 		for (Field field : aClass.getDeclaredFields()) {
 			field.setAccessible(true);
-			if (!field.getName().startsWith("createdDate") && !field.getName().startsWith("modifiededDate")
-					&& !field.getName().startsWith("createdBy") && !field.getName().startsWith("modifiededBy")) {
+			String columnName = field.getAnnotation(Column.class).name();
+			if (field.getAnnotation(Column.class).name().equals("id")) {
+				continue;
+			}
+			if (sbFieldAndValues.length() > 1) {
+				sbFieldAndValues.append(" , ");
+			}
+			sbFieldAndValues.append(columnName + " = ?");
+		}
+		Class<?> parentClass = aClass.getSuperclass();
+		while(parentClass!=null) {
+			for (Field field : parentClass.getDeclaredFields()) {
+				field.setAccessible(true);
+				String columnName = field.getAnnotation(Column.class).name();
 				if (field.getAnnotation(Column.class).name().equals("id")) {
 					continue;
 				}
 				if (sbFieldAndValues.length() > 1) {
-					sbFieldAndValues.append(",");
+					sbFieldAndValues.append(" , ");
 				}
-				sbFieldAndValues.append(field.getAnnotation(Column.class).name() + "= ?");
+				sbFieldAndValues.append(columnName + " = ?");
 			}
+			parentClass = parentClass.getSuperclass();
 		}
 
-		String sql = "Update " + tableName + " SET " + sbFieldAndValues.toString() + " where " + tableName + ".id=?";
+		String sql = "Update " + tableName + " SET " + sbFieldAndValues.toString() + " where " + tableName + ".id = ? ";
 		return sql.toString();
 	}
 
@@ -357,3 +377,5 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 	}
 
 }
+
+//kh

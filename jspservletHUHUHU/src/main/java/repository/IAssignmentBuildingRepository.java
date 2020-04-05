@@ -2,7 +2,7 @@ package repository;
 
 import java.util.List;
 
-import dto.AssignmentBuildingDTO;
+
 import entity.AssignmentBuildingEntity;
 
 public interface IAssignmentBuildingRepository {
