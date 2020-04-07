@@ -52,4 +52,14 @@ public class UserRepository extends SimpleJPArepository<UserEntity> implements I
 		 
 	}
 
+	@Override
+	public boolean checkStaffmanagerBuilding(Long staffId, Long buildingId) {
+		String sql = "select count(*) from user u inner join assignmentbuilding ab on u.id = ab.staffid "
+				+ "where u.id = "+staffId+" and ab.buildingid = "+buildingId+"";
+		if(this.count(sql) > 0) {
+			return true;
+		}
+		return false;
+	}
+
 }

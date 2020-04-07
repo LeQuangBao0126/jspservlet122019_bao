@@ -40,17 +40,17 @@ $("#btnThemToaNha").click(function(e) {
 });
 
 //Giao toà nhà cho nhan viên// api show staff 
-function showStaffAssignment() {
+function showStaffAssignment(buildingid) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/api-user?action=LOAD_STAFF&rolecode=STAFF",
+        url: "http://localhost:8080/api-user?action=LOAD_STAFF&buildingId="+buildingid,
         dataType: "json",
         success: function(users) {
             console.log(users);
             var html = '';
             for (var i = 0; i < users.length; i++) {
                 html += `<tr>
-                <td><input type="checkbox" value="${users[i].id}" id="checkbox_${users[i].id}"  ></td>
+                <td><input type="checkbox" value="${users[i].id}" id="checkbox_${users[i].id}" ${users[i].checked=='checked'?'checked':''}  ></td>
                 <td>${users[i].fullName}</td>
                 </tr>`;
             }
@@ -66,7 +66,7 @@ function showStaffAssignment() {
 function Assignmentbuilding(buildingid) {
     $("#assignmentbuildingmodal").modal();
     $("#buildingid").val(buildingid);
-    showStaffAssignment();
+    showStaffAssignment($("#buildingid").val());
 }
 $("#btnAssignBuilding").click(function(e) {
     e.preventDefault();

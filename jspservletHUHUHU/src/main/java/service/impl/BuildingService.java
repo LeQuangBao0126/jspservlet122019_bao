@@ -123,7 +123,7 @@ public class BuildingService implements IBuildingService {
 		updateDto.setCreatedBy(Oldbuildingdto.getCreatedBy());
 		updateDto.setModifiededDate(new Date());
 		updateDto.setModifiededBy("baobao");
-		 buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));		
+		buildingRepository.update(buildingConverter.convertDTOToEntity(updateDto));		
 	}
 	@Override
 	public void delete(Long[] ids) {

@@ -14,12 +14,12 @@ public class AssignmentBuildingRepository extends SimpleJPArepository<Assignment
 
 	@Override
 	public void insertStaffByBuildingid(AssignmentBuildingEntity entity) {
-		super.insert(entity);
+		 this.insert(entity);
 	}
 
 	@Override
-	public void deleteAssignmentByBuildingId(Long buildingId) {
-		String where =" AND buildingid = "+buildingId+" ";
+	public void deleteAssignmentByBuildingId(Long buildingId,Long StaffId) {
+		String where =" AND buildingid = "+buildingId+" AND staffid= "+StaffId+"  ";
 		this.deleteByProperty(where);
 	}
 

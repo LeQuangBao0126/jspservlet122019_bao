@@ -14,4 +14,5 @@ public interface JPArepository<T> {
 	void delete(Long id);
 	void deleteByProperty(String where);
 	// T findById(Long id)
+	int count(String sql);
  }

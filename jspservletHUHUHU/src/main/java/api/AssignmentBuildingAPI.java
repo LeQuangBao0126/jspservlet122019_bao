@@ -43,27 +43,26 @@ public class AssignmentBuildingAPI extends HttpServlet {
 		Long[] staffIds = assignmentInput.getStaffIds();
 		if(staffIds.length > 0) {
 			Long buildingId = assignmentInput.getBuildingId();
-			//lặp mảng staffid trong database so sánh với mảng ngoài client .
-			  Long[] arrStaffInDatabase = abservice.getStaffIdByBuildingid(buildingId);
-			 
-			  for(Long item : staffIds) {
-				  for(int j = 0 ; j< arrStaffInDatabase.length ; j++) {  
-					  if(item != arrStaffInDatabase[j]) {
-						  abservice.insertStaffByBuildingid(item, buildingId);
-					  }else {
-						  
-					  }					  
-				  }			
-			  }
-			  for(Long id :arrStaffInDatabase ) {
-				  
-			  }
-			//lặp trong mảng client.nếu mảng trong databse ko có phan tử trong client thì them.còn có rồi thì remove			
-						
-		}
-		
+			Long[] arrStaffInDatabase = abservice.getStaffIdByBuildingid(buildingId);
+			 // kiemtra xem nhan vien đó có trong bảng ko ..nếu nhan vien đó có	trong bảng và ngoài client ko có thỉ remove 
+			  for(Long staffidclient : staffIds) {
+				  	for(int j = 0 ; j< arrStaffInDatabase.length ; ++j) {  
+				  		if(abservice.checkStaffManagerBuildingId((long)j, buildingId) && staffidclient!= (long)j) {
+				  			abservice.deleteStaffByBuildingid((long)j, buildingId);
+				  			break;
+						}else if(!(abservice.checkStaffManagerBuildingId((long)j, buildingId)) && staffidclient == (long)j) {
+							abservice.insertStaffByBuildingid(staffidclient, buildingId);
+							break;
+						}else {
+							continue;
+						}
+				  		
+				  }	
+  
+			  }				  
+		}	
 	}
-
+//nếu ngoai mảng client ko có trong database thì remove trong database đis
 }
 // cái nào mà staff đang giao thì trong bảng ton tai 1 record , nếu như ở tren giao dien bỏ tích thì phải xoá 
 // cái record .. 2 bước

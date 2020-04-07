@@ -156,7 +156,7 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 				}
 				parentClass = parentClass.getSuperclass();
 			}
-			
+
 			int affectedRows = statement.executeUpdate();
 			connection.commit();
 			if (affectedRows == 0) {
@@ -233,19 +233,19 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 		String sqlUpdate = createSQLupdate(objectUpdate);
 		Connection connection = null;
 		PreparedStatement statement = null;
-		
+
 		try {
 			connection = EntityManagerFactory.getConnection();
 			connection.setAutoCommit(false);
 			statement = connection.prepareStatement(sqlUpdate);
 			Class<?> aClass = objectUpdate.getClass();
 			int i = 1;
-			for (Field field : aClass.getDeclaredFields()) {				
-				field.setAccessible(true);		
-				if(field.get(objectUpdate) != null) {
-					statement.setObject(i, field.get(objectUpdate));				
+			for (Field field : aClass.getDeclaredFields()) {
+				field.setAccessible(true);
+				if (field.get(objectUpdate) != null) {
+					statement.setObject(i, field.get(objectUpdate));
 					i++;
-				}	     
+				}
 			}
 			Class<?> parentClass = aClass.getSuperclass();
 			int parentIndex = aClass.getDeclaredFields().length + 1;
@@ -253,18 +253,18 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			while (parentClass != null) {
 				for (Field aField : parentClass.getDeclaredFields()) {
 					aField.setAccessible(true);
-					if(aField.getAnnotation(Column.class).name().equals("id")) {
+					if (aField.getAnnotation(Column.class).name().equals("id")) {
 						id = aField.get(objectUpdate);
 						break;
 					}
 					statement.setObject(parentIndex, aField.get(objectUpdate));
-					parentIndex++;					
+					parentIndex++;
 				}
 				parentClass = parentClass.getSuperclass();
-			 }
+			}
 			statement.setObject(parentIndex, id);
 			statement.executeUpdate(sqlUpdate);
-			connection.commit();		
+			connection.commit();
 		} catch (SQLException | IllegalAccessException e) {
 			System.out.println(e.getMessage());
 			if (connection != null) {
@@ -274,8 +274,8 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 					System.out.println(e1.getMessage());
 					e1.printStackTrace();
 				}
-			}	
-		}		
+			}
+		}
 	}
 
 	private String createSQLupdate(Object objupdate) {
@@ -298,7 +298,7 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 			sbFieldAndValues.append(columnName + " = ?");
 		}
 		Class<?> parentClass = aClass.getSuperclass();
-		while(parentClass!=null) {
+		while (parentClass != null) {
 			for (Field field : parentClass.getDeclaredFields()) {
 				field.setAccessible(true);
 				String columnName = field.getAnnotation(Column.class).name();
@@ -320,12 +320,12 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 	@Override
 	public void delete(Long id) {
 		String tableName = "";
-		if(zClass.isAnnotationPresent(Table.class)) {
+		if (zClass.isAnnotationPresent(Table.class)) {
 			tableName = zClass.getAnnotation(Table.class).name();
 		}
-		String sql = "delete from "+tableName+" where id= "+id;
+		String sql = "delete from " + tableName + " where id= " + id;
 		Connection connection = EntityManagerFactory.getConnection();
-		Statement statement =null;
+		Statement statement = null;
 		try {
 			statement = connection.createStatement();
 			statement.executeUpdate(sql);
@@ -336,7 +336,6 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 				connection.close();
 				statement.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -345,17 +344,17 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 	@Override
 	public void deleteByProperty(String where) {
 		String tableName = "";
-		if(zClass.isAnnotationPresent(Table.class)) {
+		if (zClass.isAnnotationPresent(Table.class)) {
 			tableName = zClass.getAnnotation(Table.class).name();
 		}
-		String sql = "delete from "+tableName +" where 1=1 "+ where;
+		String sql = "delete from " + tableName + " where 1=1 " + where;
 		Connection connection = EntityManagerFactory.getConnection();
-		Statement statement =null;
+		Statement statement = null;
 		try {
 			connection.setAutoCommit(false);
 			statement = connection.createStatement();
 			statement.executeUpdate(sql);
-			if(connection!= null) {
+			if (connection != null) {
 				connection.commit();
 			}
 		} catch (SQLException e) {
@@ -373,9 +372,38 @@ public class SimpleJPArepository<T> implements JPArepository<T> {
 				e.printStackTrace();
 			}
 		}
-		
+
+	}
+
+	@Override
+	public int count(String sql) {
+		Connection connection = EntityManagerFactory.getConnection();
+		Statement statement = null;
+		ResultSet resultset = null;
+		int row= 0;
+		if (connection != null) {
+			try {
+				statement = connection.createStatement();
+				resultset = statement.executeQuery(sql);
+				while (resultset.next()) {
+					row = resultset.getInt("COUNT(*)");
+				}
+				return row;
+			} catch (SQLException e) {
+				System.out.println(e.getMessage());
+				return 0;
+			} finally {
+				try {
+					connection.close();
+					statement.close();
+					resultset.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return row;
+
 	}
 
 }
-
-//kh

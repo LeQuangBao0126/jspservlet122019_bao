@@ -10,5 +10,5 @@ public interface IAssignmentBuildingRepository {
 	List<AssignmentBuildingEntity> findByBuildingid(Long id);
 	void insertStaffByBuildingid(AssignmentBuildingEntity entity);
 	//
-	void deleteAssignmentByBuildingId(Long buildingId);
+	void deleteAssignmentByBuildingId(Long buildingId,Long staffId);
 }
