@@ -1,6 +1,6 @@
 // them toa nhà
 $("#btnThemToaNha").click(function(e) {
-	
+
     e.preventDefault();
     // call api them toa nhà.
     var data = {};
@@ -43,7 +43,7 @@ $("#btnThemToaNha").click(function(e) {
 function showStaffAssignment(buildingid) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/api-user?action=LOAD_STAFF&buildingId="+buildingid,
+        url: "http://localhost:8080/api-user?action=LOAD_STAFF&buildingId=" + buildingid,
         dataType: "json",
         success: function(users) {
             console.log(users);

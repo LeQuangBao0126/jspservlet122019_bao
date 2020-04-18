@@ -95,22 +95,15 @@
                                                             <label for="">Giá thuê đến</label>
                                                             <input type="number" id="rentCostTo" name="rentCostTo" class="form-control" />
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <label for="">Tên quản lý</label>
-                                                            <input type="text" id="managerName" name="managerName" class="form-control" />
-                                                        </div>
-                                                        <div class="col-sm-4">
-                                                            <label for="">Điện thoại quản lý</label>
-                                                            <input type="text" id="managerPhone" name="managerPhone" class="form-control" />
-                                                        </div>
+
                                                         <div class="col-sm-3">
                                                             <label for="">Chọn nhân viên phụ trách</label>
                                                             <select class="form-control" name="staffId">
-														<option value="-1">--Chọn Nhân Viên Phụ Trách--</option>
-														<option value="1">aa</option>
-														<option value="2">bb</option>
-														<option value="3">cc</option>
-													</select>
+																<option value="-1">--Chọn Nhân Viên Phụ Trách--</option>
+															<option value="1">Nguyễn Văn A</option>
+																<option value="2">Nguyễn Văn B</option>
+																<option value="3">Nguyễn Văn C</option>
+															</select>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <div class="control-group">
@@ -118,10 +111,10 @@
                                                                 <div class="checkbox">
                                                                     <c:forEach items="${mapbuildingtype}" var="item">
                                                                         <label>
-																<input name="buildingTypes" value="${item.key}" class="ace"
-																type="checkbox" ${fn:contains(fn:join(model.buildingTypes,','),item.key) ?'checked':''}  >
-																<span class="lbl">${item.value}</span>
-															</label>
+                                                                        <input name="buildingTypes" value="${item.key}" class="ace"
+                                                                        type="checkbox" ${fn:contains(fn:join(model.buildingTypes,','),item.key) ?'checked':''}  >
+                                                                        <span class="lbl">${item.value}</span>
+                                                                    </label>
                                                                     </c:forEach>
                                                                 </div>
                                                             </div>

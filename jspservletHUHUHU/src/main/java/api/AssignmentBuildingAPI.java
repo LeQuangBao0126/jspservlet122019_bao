@@ -55,10 +55,8 @@ public class AssignmentBuildingAPI extends HttpServlet {
 							break;
 						}else {
 							continue;
-						}
-				  		
+						}	
 				  }	
-  
 			  }				  
 		}	
 	}
